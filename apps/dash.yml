@@ -1,0 +1,5 @@
+name: Dash
+friendlyName: dash
+files:
+  - basePath: ~/Library/Application Support/Dash
+    includedFiles: [library.dash, License, User Contributed]

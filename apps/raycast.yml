@@ -1,0 +1,6 @@
+name: Raycast
+friendlyName: raycast
+files:
+  - basePath: ~/Library/Preferences/
+    includedFiles:
+      - com.raycast.macos.plist
