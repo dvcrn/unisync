@@ -57,9 +57,10 @@ func init() {
 }
 func main() {
 	switch action {
-	case actionTypeSync:
-	case actionTypeInitFromApp:
-	case actionTypeInitFromTarget:
+	case
+		actionTypeSync,
+		actionTypeInitFromApp,
+		actionTypeInitFromTarget:
 		configurations := map[string]*internal.AppConfig{}
 
 		entries, err := content.ReadDir("apps")
