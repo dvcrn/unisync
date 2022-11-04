@@ -56,12 +56,12 @@ files:
     includedFiles:
       - com.raycast.macos.plist
     ignoredFiles:
-      - somethingToIgnore
+      - Name somethingToIgnore.plist
 ```
 
 - `basePath` is the path that contains the files to sync. It can be `~/Library/Preferences/` when the file in question is just a preferences file, but also soemthing like `~/Library/Application Support/Dash`
 - `includedFiles` are all files **within** basePath to process
-- `ignoredFiles` is the opposite of `includedFiles` - stuff you don't want to get processed
+- `ignoredFiles` is the opposite of `includedFiles` - stuff you don't want to get processed. Has to be Name, Path, BelowPath or Regex
 
 ## Troubleshooting & Caveats
 

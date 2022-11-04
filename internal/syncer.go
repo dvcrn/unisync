@@ -8,6 +8,10 @@ import (
 	"github.com/dvcrn/uniconfig/internal/engine"
 )
 
+var globalIgnore = []string{
+	"Name .DS_Store",
+}
+
 func toAbsolutePath(path string) (string, error) {
 	homeDir, err := os.UserHomeDir()
 	if err != nil {
@@ -63,18 +67,21 @@ func (s *Syncer) sync(appConfig *AppConfig, syncMode syncMode) error {
 			}
 		}
 
+		ignoredFiles := append([]string{}, fileConfig.IgnoredFiles...)
+		ignoredFiles = append(ignoredFiles, globalIgnore...)
+
 		unison := engine.NewUnison()
 		switch syncMode {
 		case syncModeNormal:
-			if err = unison.Sync(absPathA, absPathB, fileConfig.IncludedFiles, fileConfig.IgnoredFiles); err != nil {
+			if err = unison.Sync(absPathA, absPathB, fileConfig.IncludedFiles, ignoredFiles); err != nil {
 				return err
 			}
 		case syncModeAToB:
-			if err = unison.SyncAToB(absPathA, absPathB, fileConfig.IncludedFiles, fileConfig.IgnoredFiles); err != nil {
+			if err = unison.SyncAToB(absPathA, absPathB, fileConfig.IncludedFiles, ignoredFiles); err != nil {
 				return err
 			}
 		case syncModeBToA:
-			if err = unison.SyncBToA(absPathA, absPathB, fileConfig.IncludedFiles, fileConfig.IgnoredFiles); err != nil {
+			if err = unison.SyncBToA(absPathA, absPathB, fileConfig.IncludedFiles, ignoredFiles); err != nil {
 				return err
 			}
 		}
