@@ -1,0 +1,6 @@
+name: Choosy
+friendlyName: choosy
+files:
+  - basePath: ~/Library/Application Support/Choosy/
+    includedFiles:
+      - behaviours.plist
