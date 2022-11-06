@@ -47,8 +47,8 @@ apps:
 ```
 Commands:
   sync - run sync between all enabled apps
-  init-from-target - run initial sync, targetPath -> appPath
-  init-from-app - run initial sync, appPath -> targetPath
+  init-from-target - run/force initial sync, targetPath -> appPath
+  init-from-local - run/force initial sync, local -> targetPath
   list - list all available apps
 ```
 
