@@ -28,10 +28,13 @@ Create a config file in ~/.config/unisync/unisync.yaml:
 
 ```yaml
 targetPath: ~/.config/appconfigsync
+preferDirection: target
 apps:
   - dash
   - raycast
 ```
+
+- `preferDirection` specifies which direction should get picked on conflict. Set it to `target` to have the targetPath take precedence (aka, your dropbox folder). Set it to `local` to say that your local apps should take prededence and override the sync store. Defaults to `target`
 
 ### Usage
 

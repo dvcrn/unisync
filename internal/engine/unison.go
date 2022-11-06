@@ -19,7 +19,7 @@ func NewUnison() *Unison {
 	}
 }
 
-func (unison *Unison) Sync(pathA, pathB string, filesToSync []string, filesToIgnore []string) error {
+func (unison *Unison) Sync(pathA, pathB, prefer string, filesToSync []string, filesToIgnore []string) error {
 	args := []string{
 		pathA,
 		pathB,
@@ -27,7 +27,7 @@ func (unison *Unison) Sync(pathA, pathB string, filesToSync []string, filesToIgn
 		"-auto",  // auto accept non conflicting
 		"-contactquietly",
 		"-prefer", // on conflict, prefer A
-		pathA,
+		prefer,
 	}
 
 	for _, file := range filesToSync {

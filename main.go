@@ -96,7 +96,6 @@ func main() {
 
 		fmt.Println("Available apps:")
 		for k := range configurations {
-			/* code */
 			fmt.Printf(" - %s\n", k)
 		}
 
@@ -128,10 +127,16 @@ func main() {
 			log.Fatalf("err trying to parse yaml config file: %s\n", err)
 		}
 
+		preferDirection := internal.PreferMode(config.PreferDirection)
+		if config.PreferDirection != internal.PreferModeLocal && config.PreferDirection != internal.PreferModeTarget {
+			fmt.Println("preferDirection not set or invalid, defaulting to 'preferDirection = target'")
+			preferDirection = internal.PreferModeTarget
+		}
+
 		fmt.Println("starting unisync...")
 		fmt.Printf("targetPath: %s, apps: %s\n", config.TargetPath, config.Apps)
 
-		syncer := internal.NewSyncer(config.TargetPath)
+		syncer := internal.NewSyncer(config.TargetPath, preferDirection)
 
 		for _, app := range config.Apps {
 			fmt.Printf("--- syncing app: %s ---\n", app)

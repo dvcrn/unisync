@@ -8,6 +8,13 @@ import (
 	"github.com/dvcrn/unisync/internal/engine"
 )
 
+type PreferMode string
+
+const (
+	PreferModeTarget = "target"
+	PreferModeLocal  = "local"
+)
+
 var globalIgnore = []string{
 	"Name .DS_Store",
 }
@@ -31,11 +38,13 @@ func toAbsolutePath(path string) (string, error) {
 
 type Syncer struct {
 	TargetPath string
+	PreferMode PreferMode
 }
 
-func NewSyncer(targetPath string) *Syncer {
+func NewSyncer(targetPath string, targetMode PreferMode) *Syncer {
 	return &Syncer{
 		TargetPath: targetPath,
+		PreferMode: targetMode,
 	}
 }
 
@@ -73,7 +82,12 @@ func (s *Syncer) sync(appConfig *AppConfig, syncMode syncMode) error {
 		unison := engine.NewUnison()
 		switch syncMode {
 		case syncModeNormal:
-			if err = unison.Sync(absPathA, absPathB, fileConfig.IncludedFiles, ignoredFiles); err != nil {
+			prefer := absPathA
+			if s.PreferMode == PreferModeLocal {
+				prefer = absPathB
+			}
+
+			if err = unison.Sync(absPathA, absPathB, prefer, fileConfig.IncludedFiles, ignoredFiles); err != nil {
 				return err
 			}
 		case syncModeAToB:
