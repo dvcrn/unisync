@@ -22,6 +22,7 @@ const (
 	actionTypeSync           actionType = "sync"
 	actionTypeInitFromTarget actionType = "initFromTarget"
 	actionTypeInitFromApp    actionType = "initFromApp"
+	actionTypeList           actionType = "list"
 )
 
 var action actionType = actionTypeUnknown
@@ -37,6 +38,7 @@ func init() {
 		fmt.Println("  sync - run sync between all enabled apps")
 		fmt.Println("  init-from-target - run initial sync, targetPath -> appPath")
 		fmt.Println("  init-from-app - run initial sync, appPath -> targetPath")
+		fmt.Println("  list - list available apps")
 	}
 
 	if len(flag.Args()) < 1 {
@@ -52,35 +54,59 @@ func init() {
 		action = actionTypeInitFromTarget
 	case "init-from-app":
 		action = actionTypeInitFromApp
+	case "list":
+		action = actionTypeList
 
 	}
 }
+
+func loadApps() (map[string]*internal.AppConfig, error) {
+	configurations := map[string]*internal.AppConfig{}
+
+	entries, err := content.ReadDir("apps")
+	if err != nil {
+		return nil, err
+	}
+
+	for _, entry := range entries {
+		c, err := content.ReadFile(fmt.Sprintf("apps/%s", entry.Name()))
+		if err != nil {
+			return nil, err
+		}
+
+		var t *internal.AppConfig
+		err = yaml.Unmarshal(c, &t)
+		if err != nil {
+			return nil, err
+		}
+
+		configurations[t.FriendlyName] = t
+	}
+
+	return configurations, nil
+}
+
 func main() {
 	switch action {
-	case
-		actionTypeSync,
-		actionTypeInitFromApp,
-		actionTypeInitFromTarget:
-		configurations := map[string]*internal.AppConfig{}
-
-		entries, err := content.ReadDir("apps")
+	case actionTypeList:
+		configurations, err := loadApps()
 		if err != nil {
 			log.Fatal(err)
 		}
 
-		for _, entry := range entries {
-			c, err := content.ReadFile(fmt.Sprintf("apps/%s", entry.Name()))
-			if err != nil {
-				log.Fatal(err)
-			}
+		fmt.Println("Available apps:")
+		for k := range configurations {
+			/* code */
+			fmt.Printf(" - %s\n", k)
+		}
 
-			var t *internal.AppConfig
-			err = yaml.Unmarshal(c, &t)
-			if err != nil {
-				log.Fatal(err)
-			}
+	case actionTypeSync,
+		actionTypeInitFromApp,
+		actionTypeInitFromTarget:
 
-			configurations[t.FriendlyName] = t
+		configurations, err := loadApps()
+		if err != nil {
+			log.Fatal(err)
 		}
 
 		homeDir, err := os.UserHomeDir()

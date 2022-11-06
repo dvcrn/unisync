@@ -40,6 +40,7 @@ Commands:
   sync - run sync between all enabled apps
   init-from-target - run initial sync, targetPath -> appPath
   init-from-app - run initial sync, appPath -> targetPath
+  list - list all available apps
 ```
 
 The initial sync options **force** one way. For example if you want your local configuration to be overwritten on initial sync with whatever you have in your storage folder, run `init-from-target`
