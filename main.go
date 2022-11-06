@@ -116,7 +116,10 @@ func main() {
 
 		configFile, err := os.ReadFile(homeDir + "/.config/unisync/unisync.yaml")
 		if err != nil {
-			log.Fatal(err)
+			configFile, err = os.ReadFile(homeDir + "/.config/unisync/unisync.yml")
+			if err != nil {
+				log.Fatal(err)
+			}
 		}
 
 		var config *internal.Config
