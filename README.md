@@ -18,7 +18,13 @@ The sync folder in the cloud acts as a backup and source for diffing, but the ap
 
 ## Install & Usage
 
-Install `unison` and make sure it's in your path
+Install `unison` and make sure it's in your path. On mac you can do:
+
+```
+brew install unison
+```
+
+Then
 
 ```
 go install github.com/dvcrn/unisync@latest
