@@ -1,0 +1,15 @@
+name: DEVONthink
+friendlyName: devonthink
+files:
+  - basePath: ~/Library/Application Support/DEVONthink 3/
+    includedFiles:
+      - CustomMetaData.plist
+      - Annotations.noindex
+      - SmartRules.plist
+      - Geotagging.plist
+      - SmartGroups.plist
+      - Favorites.plist
+      - StyleSheets
+      - Plugins
+      - Scripts
+      - Templates.noindex
