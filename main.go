@@ -21,7 +21,7 @@ const (
 	actionTypeUnknown        actionType = ""
 	actionTypeSync           actionType = "sync"
 	actionTypeInitFromTarget actionType = "initFromTarget"
-	actionTypeInitFromApp    actionType = "initFromApp"
+	actionTypeInitFromLocal  actionType = "initFromLocal"
 	actionTypeList           actionType = "list"
 )
 
@@ -36,8 +36,8 @@ func init() {
 		fmt.Println("")
 		fmt.Println("Commands:")
 		fmt.Println("  sync - run sync between all enabled apps")
-		fmt.Println("  init-from-target - run initial sync, targetPath -> appPath")
-		fmt.Println("  init-from-app - run initial sync, appPath -> targetPath")
+		fmt.Println("  init-from-target - run/force initial sync, targetPath -> appPath")
+		fmt.Println("  init-from-local - run/force initial sync, local -> targetPath")
 		fmt.Println("  list - list available apps")
 	}
 
@@ -52,8 +52,8 @@ func init() {
 		action = actionTypeSync
 	case "init-from-target":
 		action = actionTypeInitFromTarget
-	case "init-from-app":
-		action = actionTypeInitFromApp
+	case "init-from-local":
+		action = actionTypeInitFromLocal
 	case "list":
 		action = actionTypeList
 
@@ -100,7 +100,7 @@ func main() {
 		}
 
 	case actionTypeSync,
-		actionTypeInitFromApp,
+		actionTypeInitFromLocal,
 		actionTypeInitFromTarget:
 
 		configurations, err := loadApps()
@@ -152,7 +152,7 @@ func main() {
 					fmt.Printf("err syncing app: %s\n", err)
 				}
 
-			case actionTypeInitFromApp:
+			case actionTypeInitFromLocal:
 				if err := syncer.SyncAppBToA(found); err != nil {
 					fmt.Printf("err syncing app: %s\n", err)
 				}
