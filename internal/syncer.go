@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/dvcrn/uniconfig/internal/engine"
+	"github.com/dvcrn/unisync/internal/engine"
 )
 
 var globalIgnore = []string{

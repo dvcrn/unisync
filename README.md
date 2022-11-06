@@ -1,15 +1,14 @@
-# UniConfig
+# unisync
 
 Mackup inspired tool to sync application settings, powered by unison
 
+## What it is
 
-## What it is 
+unisync helps you keep your application settings (plists, config folders, licenses) synchronized across machines. It does this by using `unison` to diff files, then copies them into a synced folder of your choice
 
-UniConfig helps you keep your application settings (plists, config folders, licenses) synchronized across machines. It does this by using `unison` to diff files, then copies them into a synced folder of your choice
+## How is this different from mackup?
 
-## How is this different from mackup? 
-
-UniConfig does not use symlinks like mackup. So instead of symlinking things into Dropbox/iCloud, UniConfig uses `unison` for diffing and copies the actual files. 
+unisync does not use symlinks like mackup. So instead of symlinking things into Dropbox/iCloud, unisync uses `unison` for diffing and copies the actual files.
 
 ### Why?
 
@@ -17,15 +16,15 @@ I like unison and ran into issues where symlinks randomly broke without me notic
 
 The sync folder in the cloud acts as a backup and source for diffing, but the apps would continue to work as is if those were deleted.
 
-## Install & Usage 
+## Install & Usage
 
 Install `unison` and make sure it's in your path
 
 ```
-go install github.com/dvcrn/uniconfig@latest
+go install github.com/dvcrn/unisync@latest
 ```
 
-Create a config file in ~/.config/uniconfig/uniconfig.yaml:
+Create a config file in ~/.config/unisync/unisync.yaml:
 
 ```yaml
 targetPath: ~/.config/appconfigsync
@@ -35,6 +34,7 @@ apps:
 ```
 
 ### Usage
+
 ```
 Commands:
   sync - run sync between all enabled apps

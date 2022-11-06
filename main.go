@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/dvcrn/uniconfig/internal"
+	"github.com/dvcrn/unisync/internal"
 	"gopkg.in/yaml.v3"
 )
 
@@ -88,7 +88,7 @@ func main() {
 			log.Fatal(err)
 		}
 
-		configFile, err := os.ReadFile(homeDir + "/.config/uniconfig/uniconfig.yaml")
+		configFile, err := os.ReadFile(homeDir + "/.config/unisync/unisync.yaml")
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -99,7 +99,7 @@ func main() {
 			log.Fatalf("err trying to parse yaml config file: %s\n", err)
 		}
 
-		fmt.Println("starting uniconfig...")
+		fmt.Println("starting unisync...")
 		fmt.Printf("targetPath: %s, apps: %s\n", config.TargetPath, config.Apps)
 
 		syncer := internal.NewSyncer(config.TargetPath)

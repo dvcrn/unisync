@@ -1,4 +1,4 @@
-module github.com/dvcrn/uniconfig
+module github.com/dvcrn/unisync
 
 go 1.19
 
