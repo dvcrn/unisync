@@ -60,16 +60,20 @@ func init() {
 	}
 }
 
-func loadApps() (map[string]*internal.AppConfig, error) {
+func readAppConfigs(basePath string) (map[string]*internal.AppConfig, error) {
 	configurations := map[string]*internal.AppConfig{}
 
-	entries, err := content.ReadDir("apps")
+	entries, err := content.ReadDir(basePath)
 	if err != nil {
 		return nil, err
 	}
 
 	for _, entry := range entries {
-		c, err := content.ReadFile(fmt.Sprintf("apps/%s", entry.Name()))
+		if entry.IsDir() {
+			continue
+		}
+
+		c, err := content.ReadFile(fmt.Sprintf("%s/%s", basePath, entry.Name()))
 		if err != nil {
 			return nil, err
 		}
@@ -81,6 +85,31 @@ func loadApps() (map[string]*internal.AppConfig, error) {
 		}
 
 		configurations[t.FriendlyName] = t
+	}
+
+	return configurations, nil
+}
+
+func loadApps() (map[string]*internal.AppConfig, error) {
+	configurations := map[string]*internal.AppConfig{}
+
+	configEntries, err := readAppConfigs("apps/mackup")
+	if err != nil {
+		return nil, err
+	}
+
+	for k, v := range configEntries {
+		configurations[k] = v
+	}
+
+	// apps overwrite mackup, so mackup gets parsed first
+	configEntries, err = readAppConfigs("apps")
+	if err != nil {
+		return nil, err
+	}
+
+	for k, v := range configEntries {
+		configurations[k] = v
 	}
 
 	return configurations, nil
