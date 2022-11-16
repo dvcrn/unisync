@@ -67,7 +67,6 @@ func main() {
 
 	for _, f := range files {
 		fullPath := path.Join(mackupPath, f.Name())
-		fmt.Println(fullPath)
 		if err := gen(fullPath); err != nil {
 			panic(err)
 		}
