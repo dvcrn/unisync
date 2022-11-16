@@ -1,0 +1,15 @@
+name: LittleSnitch
+friendlyName: littlesnitch
+files:
+    - basePath: ~/Library/Application Support/Little Snitch/
+      includedFiles:
+        - rules.usr.xpl
+        - configuration.xpl
+        - configuration.user.xpl
+        - configuration4.user.xpl
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - at.obdev.LittleSnitchNetworkMonitor.plist
+        - at.obdev.littlesnitch.networkmonitor.plist
+      ignoredFiles: []

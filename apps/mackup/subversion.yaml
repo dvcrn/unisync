@@ -1,0 +1,7 @@
+name: Subversion
+friendlyName: subversion
+files:
+    - basePath: ~/
+      includedFiles:
+        - .subversion
+      ignoredFiles: []

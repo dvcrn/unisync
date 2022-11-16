@@ -1,0 +1,7 @@
+name: ShowyEdge
+friendlyName: showyedge
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.pqrs.ShowyEdge.plist
+      ignoredFiles: []

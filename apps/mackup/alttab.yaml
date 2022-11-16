@@ -1,0 +1,7 @@
+name: AltTab
+friendlyName: alttab
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.lwouis.alt-tab-macos.plist
+      ignoredFiles: []

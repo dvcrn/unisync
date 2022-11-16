@@ -1,0 +1,7 @@
+name: Electrum
+friendlyName: electrum
+files:
+    - basePath: ~/.electrum/
+      includedFiles:
+        - config
+      ignoredFiles: []

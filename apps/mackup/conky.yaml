@@ -1,0 +1,7 @@
+name: Conky
+friendlyName: conky
+files:
+    - basePath: ~/
+      includedFiles:
+        - .conkyrc
+      ignoredFiles: []

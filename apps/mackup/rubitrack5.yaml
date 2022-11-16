@@ -1,0 +1,7 @@
+name: rubiTrack 5
+friendlyName: rubitrack5
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.shiftoption.rubitrack5.pro.plist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Eagle (ogdesign)
+friendlyName: eagle(ogdesign)
+files:
+    - basePath: ~/Library/Application Support/Eagle/
+      includedFiles:
+        - Settings
+      ignoredFiles: []

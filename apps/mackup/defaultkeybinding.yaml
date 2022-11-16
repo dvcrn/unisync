@@ -1,0 +1,7 @@
+name: DefaultKeyBinding
+friendlyName: defaultkeybinding
+files:
+    - basePath: ~/Library/KeyBindings/
+      includedFiles:
+        - DefaultKeyBinding.dict
+      ignoredFiles: []

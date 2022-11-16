@@ -1,0 +1,12 @@
+name: Mou
+friendlyName: mou
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.mouapp.Mou.plist
+        - com.mouapp.Mou.LSSharedFileList.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Mou
+      ignoredFiles: []

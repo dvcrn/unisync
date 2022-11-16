@@ -1,0 +1,7 @@
+name: Jupyter
+friendlyName: jupyter
+files:
+    - basePath: ~/
+      includedFiles:
+        - .jupyter
+      ignoredFiles: []

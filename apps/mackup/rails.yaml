@@ -1,0 +1,7 @@
+name: Rails
+friendlyName: rails
+files:
+    - basePath: ~/
+      includedFiles:
+        - .railsrc
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Itsycal
+friendlyName: itsycal
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.mowglii.ItsycalApp.plist
+      ignoredFiles: []

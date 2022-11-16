@@ -1,0 +1,11 @@
+name: Adium
+friendlyName: adium
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Adium 2.0
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.adiumX.adiumX.plist
+      ignoredFiles: []

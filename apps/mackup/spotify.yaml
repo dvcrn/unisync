@@ -1,0 +1,7 @@
+name: Spotify
+friendlyName: spotify
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.spotify.client.plist
+      ignoredFiles: []

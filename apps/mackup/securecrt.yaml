@@ -1,0 +1,11 @@
+name: SecureCRT
+friendlyName: securecrt
+files:
+    - basePath: ~/Library/Application Support/VanDyke/SecureCRT/
+      includedFiles:
+        - Config
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.vandyke.SecureCRT.plist
+      ignoredFiles: []

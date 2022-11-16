@@ -1,0 +1,7 @@
+name: mycli
+friendlyName: mycli
+files:
+    - basePath: ~/
+      includedFiles:
+        - .myclirc
+      ignoredFiles: []

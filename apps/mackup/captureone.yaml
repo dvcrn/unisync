@@ -1,0 +1,7 @@
+name: Capture One
+friendlyName: captureone
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Capture One
+      ignoredFiles: []

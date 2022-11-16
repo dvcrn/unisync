@@ -1,0 +1,7 @@
+name: yarn
+friendlyName: yarn
+files:
+    - basePath: ~/
+      includedFiles:
+        - .yarnrc
+      ignoredFiles: []

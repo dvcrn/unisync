@@ -1,0 +1,7 @@
+name: Terminal
+friendlyName: terminal
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.apple.Terminal.plist
+      ignoredFiles: []

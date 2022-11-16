@@ -1,0 +1,8 @@
+name: Skitch
+friendlyName: skitch
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.plasq.skitch.plist
+        - com.plasq.skitch.history
+      ignoredFiles: []

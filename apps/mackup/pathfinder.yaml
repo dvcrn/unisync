@@ -1,0 +1,12 @@
+name: Path Finder
+friendlyName: pathfinder
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.cocoatech.PathFinder.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Path Finder/
+      includedFiles:
+        - PlugIns
+        - Settings
+      ignoredFiles: []

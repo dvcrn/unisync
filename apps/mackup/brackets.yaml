@@ -1,0 +1,11 @@
+name: Brackets
+friendlyName: brackets
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Brackets
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - io.brackets.appshell.plist
+      ignoredFiles: []

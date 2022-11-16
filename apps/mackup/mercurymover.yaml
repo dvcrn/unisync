@@ -1,0 +1,7 @@
+name: MercuryMover
+friendlyName: mercurymover
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.heliumfoot.MyWiAgent.plist
+      ignoredFiles: []

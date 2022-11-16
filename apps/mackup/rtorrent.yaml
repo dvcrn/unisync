@@ -1,0 +1,7 @@
+name: rTorrent
+friendlyName: rtorrent
+files:
+    - basePath: ~/
+      includedFiles:
+        - .rtorrent.rc
+      ignoredFiles: []

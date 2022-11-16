@@ -1,0 +1,7 @@
+name: Airmail
+friendlyName: airmail
+files:
+    - basePath: ~/Library/Containers/it.bloop.airmail2/
+      includedFiles:
+        - Container.plist
+      ignoredFiles: []

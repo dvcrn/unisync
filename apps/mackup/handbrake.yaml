@@ -1,0 +1,7 @@
+name: HandBrake
+friendlyName: handbrake
+files:
+    - basePath: ~/Library/Containers/fr.handbrake.HandBrake/Data/Library/Application Support/HandBrake/
+      includedFiles:
+        - UserPresets.json
+      ignoredFiles: []

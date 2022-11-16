@@ -1,0 +1,9 @@
+name: composer
+friendlyName: composer
+files:
+    - basePath: ~/.composer/
+      includedFiles:
+        - auth.json
+        - config.json
+        - composer.json
+      ignoredFiles: []

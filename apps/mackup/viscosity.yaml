@@ -1,0 +1,11 @@
+name: Viscosity
+friendlyName: viscosity
+files:
+    - basePath: ~/Library/Application Support/Viscosity/
+      includedFiles:
+        - OpenVPN
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.viscosityvpn.Viscosity.plist
+      ignoredFiles: []

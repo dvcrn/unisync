@@ -1,0 +1,7 @@
+name: Clementine
+friendlyName: clementine
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.clementine-player.Clementine.plist
+      ignoredFiles: []

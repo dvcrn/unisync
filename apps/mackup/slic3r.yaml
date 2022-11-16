@@ -1,0 +1,7 @@
+name: Slic3r
+friendlyName: slic3r
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Slic3r
+      ignoredFiles: []

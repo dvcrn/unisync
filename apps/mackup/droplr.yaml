@@ -1,0 +1,7 @@
+name: Droplr
+friendlyName: droplr
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.droplr.droplr-mac.plist
+      ignoredFiles: []

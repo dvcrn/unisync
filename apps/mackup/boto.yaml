@@ -1,0 +1,7 @@
+name: Boto
+friendlyName: boto
+files:
+    - basePath: ~/
+      includedFiles:
+        - .boto
+      ignoredFiles: []

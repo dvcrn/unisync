@@ -1,0 +1,8 @@
+name: Qv2ray
+friendlyName: qv2ray
+files:
+    - basePath: ~/Library/Preferences/qv2ray/
+      includedFiles:
+        - Qv2ray.conf
+        - plugin_settings
+      ignoredFiles: []

@@ -1,0 +1,37 @@
+name: SBT
+friendlyName: sbt
+files:
+    - basePath: ~/.sbt/0.13/plugins/
+      includedFiles:
+        - plugins.sbt
+        - build.sbt
+      ignoredFiles: []
+    - basePath: ~/.sbt/1.0/
+      includedFiles:
+        - global.sbt
+        - build.sbt
+      ignoredFiles: []
+    - basePath: ~/.sbt/1.0/plugins/
+      includedFiles:
+        - plugins.sbt
+        - build.sbt
+      ignoredFiles: []
+    - basePath: ~/
+      includedFiles:
+        - .sbtconfig
+      ignoredFiles: []
+    - basePath: ~/.sbt/0.12/
+      includedFiles:
+        - global.sbt
+        - build.sbt
+      ignoredFiles: []
+    - basePath: ~/.sbt/0.12/plugins/
+      includedFiles:
+        - plugins.sbt
+        - build.sbt
+      ignoredFiles: []
+    - basePath: ~/.sbt/0.13/
+      includedFiles:
+        - global.sbt
+        - build.sbt
+      ignoredFiles: []

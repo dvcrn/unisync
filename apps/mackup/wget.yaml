@@ -1,0 +1,8 @@
+name: Wget
+friendlyName: wget
+files:
+    - basePath: ~/
+      includedFiles:
+        - .wgetrc
+        - .wget-hsts
+      ignoredFiles: []

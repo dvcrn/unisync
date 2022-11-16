@@ -1,0 +1,12 @@
+name: ExpanDrive
+friendlyName: expandrive
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - ExpanDrive
+      ignoredFiles: []
+    - basePath: ~/Preferences/
+      includedFiles:
+        - com.expandrive.ExpanDrive2.plist
+        - com.expandrive.ExpanDrive3.plist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: act
+friendlyName: act
+files:
+    - basePath: ~/
+      includedFiles:
+        - .actrc
+      ignoredFiles: []

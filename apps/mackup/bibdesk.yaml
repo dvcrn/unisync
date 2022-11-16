@@ -1,0 +1,11 @@
+name: BibDesk
+friendlyName: bibdesk
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - edu.ucsd.cs.mmccrack.bibdesk.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - BibDesk
+      ignoredFiles: []

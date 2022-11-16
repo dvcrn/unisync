@@ -1,0 +1,7 @@
+name: Netlify
+friendlyName: netlify
+files:
+    - basePath: ~/.netlify/
+      includedFiles:
+        - config.json
+      ignoredFiles: []

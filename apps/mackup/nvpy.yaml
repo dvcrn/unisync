@@ -1,0 +1,7 @@
+name: nvpy
+friendlyName: nvpy
+files:
+    - basePath: ~/
+      includedFiles:
+        - .nvpy.cfg
+      ignoredFiles: []

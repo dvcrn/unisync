@@ -1,0 +1,11 @@
+name: Task Paper
+friendlyName: taskpaper
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.hogbaysoftware.TaskPaper.mac.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - TaskPaper
+      ignoredFiles: []

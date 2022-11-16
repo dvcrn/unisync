@@ -1,0 +1,7 @@
+name: Postico
+friendlyName: postico
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - at.eggerapps.Postico.plist
+      ignoredFiles: []

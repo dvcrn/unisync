@@ -1,0 +1,20 @@
+name: DataGrip
+friendlyName: datagrip
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - DataGrip2017.3
+        - DataGrip2018.1
+        - DataGrip2018.2
+        - DataGrip2018.3
+        - DataGrip2019.1
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - DataGrip2017.3
+        - DataGrip2018.1
+        - DataGrip2018.2
+        - DataGrip2018.3
+        - DataGrip2019.1
+        - DataGrip2019.2
+      ignoredFiles: []

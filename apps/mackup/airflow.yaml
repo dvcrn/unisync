@@ -1,0 +1,11 @@
+name: Airflow
+friendlyName: airflow
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.bitcavehq.Airflow.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Airflow
+      ignoredFiles: []

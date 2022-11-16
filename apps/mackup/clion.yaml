@@ -1,0 +1,11 @@
+name: CLion
+friendlyName: clion
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - CLion2016.2
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - CLion2016.2
+      ignoredFiles: []

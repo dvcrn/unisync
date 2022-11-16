@@ -1,0 +1,7 @@
+name: Bundler
+friendlyName: bundler
+files:
+    - basePath: ~/.bundle/
+      includedFiles:
+        - config
+      ignoredFiles: []

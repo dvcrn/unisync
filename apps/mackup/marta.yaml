@@ -1,0 +1,10 @@
+name: Marta
+friendlyName: marta
+files:
+    - basePath: ~/Library/Application Support/org.yanex.marta/
+      includedFiles:
+        - conf.json
+        - favorites.json
+        - conf.marco
+        - favorites.marco
+      ignoredFiles: []

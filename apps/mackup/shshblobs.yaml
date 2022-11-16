@@ -1,0 +1,7 @@
+name: SHSH Blobs
+friendlyName: shshblobs
+files:
+    - basePath: ~/
+      includedFiles:
+        - .shsh
+      ignoredFiles: []

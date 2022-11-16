@@ -1,0 +1,11 @@
+name: Kaleidoscope
+friendlyName: kaleidoscope
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.blackpixel.kaleidoscope.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Kaleidoscope
+      ignoredFiles: []

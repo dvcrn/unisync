@@ -1,0 +1,9 @@
+name: Pastebot
+friendlyName: pastebot
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.tapbots.PastebotSync.plist
+        - com.tapbots.PastebotSync.prefPane.plist
+        - com.tapbots.PastebotSync.stats.plist
+      ignoredFiles: []

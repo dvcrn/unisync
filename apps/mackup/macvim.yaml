@@ -1,0 +1,8 @@
+name: MacVim
+friendlyName: macvim
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.vim.MacVim.LSSharedFileList.plist
+        - org.vim.MacVim.plist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: notion-enhancer
+friendlyName: notion-enhancer
+files:
+    - basePath: ~/
+      includedFiles:
+        - .notion-enhancer
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Mailplane
+friendlyName: mailplane
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.mailplaneapp.Mailplane.plist
+        - com.mailplaneapp.Mailplane3.plist
+      ignoredFiles: []

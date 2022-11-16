@@ -1,0 +1,7 @@
+name: Enjoyable
+friendlyName: enjoyable
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.yukkurigames.Enjoyable.plist
+      ignoredFiles: []

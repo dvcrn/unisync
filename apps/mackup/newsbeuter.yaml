@@ -1,0 +1,8 @@
+name: newsbeuter
+friendlyName: newsbeuter
+files:
+    - basePath: ~/.newsbeuter/
+      includedFiles:
+        - config
+        - urls
+      ignoredFiles: []

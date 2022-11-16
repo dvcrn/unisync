@@ -1,0 +1,12 @@
+name: Gear Player
+friendlyName: gearplayer
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.treasurebox.gear.plist
+        - com.treasurebox.magickeys.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Gear Player/
+      includedFiles:
+        - paddata.padl
+      ignoredFiles: []

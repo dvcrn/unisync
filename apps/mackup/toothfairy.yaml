@@ -1,0 +1,7 @@
+name: ToothFairy
+friendlyName: toothfairy
+files:
+    - basePath: ~/Library/Application Scripts/
+      includedFiles:
+        - com.robinlu.mac.Tooth-Fairy
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Heroku
+friendlyName: heroku
+files:
+    - basePath: ~/.heroku/
+      includedFiles:
+        - accounts
+        - plugins
+      ignoredFiles: []

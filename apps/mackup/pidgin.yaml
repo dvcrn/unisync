@@ -1,0 +1,7 @@
+name: Pidgin
+friendlyName: pidgin
+files:
+    - basePath: ~/
+      includedFiles:
+        - .purple
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: ProxyChains
+friendlyName: proxychains
+files:
+    - basePath: ~/
+      includedFiles:
+        - .proxychains
+      ignoredFiles: []

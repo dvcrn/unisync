@@ -1,0 +1,7 @@
+name: S3cmd
+friendlyName: s3cmd
+files:
+    - basePath: ~/
+      includedFiles:
+        - .s3cfg
+      ignoredFiles: []

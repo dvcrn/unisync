@@ -1,0 +1,9 @@
+name: Pow
+friendlyName: pow
+files:
+    - basePath: ~/
+      includedFiles:
+        - .powconfig
+        - .powenv
+        - .powrc
+      ignoredFiles: []

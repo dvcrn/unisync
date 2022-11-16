@@ -1,0 +1,8 @@
+name: MagicPrefs
+friendlyName: magicprefs
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.vladalexa.MagicPrefs.MagicPrefsPlugins.plist
+        - com.vladalexa.MagicPrefs.plist
+      ignoredFiles: []

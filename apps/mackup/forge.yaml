@@ -1,0 +1,7 @@
+name: Forge
+friendlyName: forge
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Forge
+      ignoredFiles: []

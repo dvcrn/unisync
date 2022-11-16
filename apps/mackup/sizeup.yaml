@@ -1,0 +1,11 @@
+name: SizeUp
+friendlyName: sizeup
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.irradiatedsoftware.SizeUp.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/SizeUp/
+      includedFiles:
+        - SizeUp.sizeuplicense
+      ignoredFiles: []

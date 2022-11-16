@@ -1,0 +1,7 @@
+name: AusKey
+friendlyName: auskey
+files:
+    - basePath: ~/Library/Application Support/AUSkey/
+      includedFiles:
+        - keystore.xml
+      ignoredFiles: []

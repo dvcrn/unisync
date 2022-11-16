@@ -1,0 +1,8 @@
+name: Mackup
+friendlyName: mackup
+files:
+    - basePath: ~/
+      includedFiles:
+        - .mackup.cfg
+        - .mackup
+      ignoredFiles: []

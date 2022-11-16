@@ -1,0 +1,7 @@
+name: XEmacs
+friendlyName: xemacs
+files:
+    - basePath: ~/
+      includedFiles:
+        - .xemacs
+      ignoredFiles: []

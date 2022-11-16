@@ -1,0 +1,12 @@
+name: Royal TSX
+friendlyName: royaltsx
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.lemonmojo.RoyalTSX.App.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Royal TSX/
+      includedFiles:
+        - License.xml
+        - UserPreferences.config
+      ignoredFiles: []

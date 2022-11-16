@@ -1,0 +1,7 @@
+name: Hexels
+friendlyName: hexels
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.hex-ray.hexels.plist
+      ignoredFiles: []

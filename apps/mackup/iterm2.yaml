@@ -1,0 +1,11 @@
+name: iTerm2
+friendlyName: iterm2
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.googlecode.iterm2.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/iTerm2/
+      includedFiles:
+        - DynamicProfiles
+      ignoredFiles: []

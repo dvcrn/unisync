@@ -1,0 +1,50 @@
+name: PyCharm
+friendlyName: pycharm
+files:
+    - basePath: ~/.PyCharm2016.2/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PyCharm40/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PyCharm50/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PyCharmCE2019.3/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/JetBrains/
+      includedFiles:
+        - PyCharm2020.1
+        - PyCharm2020.2
+        - PyCharm2020.3
+        - PyCharm2020.4
+        - PyCharmCE2020.1
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - PyCharm
+        - PyCharm2016.1
+        - PyCharm2016.2
+        - PyCharm2019.2
+        - PyCharm2019.3
+        - PyCharm40
+        - PyCharm50
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - PyCharm2016.1
+        - PyCharm2016.2
+        - PyCharm2019.2
+        - PyCharm2019.3
+        - PyCharm40
+        - PyCharm50
+      ignoredFiles: []
+    - basePath: ~/.PyCharm2016.1/
+      includedFiles:
+        - config
+      ignoredFiles: []

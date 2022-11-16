@@ -1,0 +1,8 @@
+name: xbar
+friendlyName: xbar
+files:
+    - basePath: ~/Library/Application Support/xbar/
+      includedFiles:
+        - xbar.config.json
+        - plugins
+      ignoredFiles: []

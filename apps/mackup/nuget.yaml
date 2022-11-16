@@ -1,0 +1,7 @@
+name: nuget
+friendlyName: nuget
+files:
+    - basePath: ~/.nuget/NuGet/
+      includedFiles:
+        - NuGet.Config
+      ignoredFiles: []

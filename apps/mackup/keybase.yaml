@@ -1,0 +1,7 @@
+name: Keybase
+friendlyName: keybase
+files:
+    - basePath: ~/.keybase/
+      includedFiles:
+        - config.json
+      ignoredFiles: []

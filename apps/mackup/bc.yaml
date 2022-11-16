@@ -1,0 +1,7 @@
+name: bc
+friendlyName: bc
+files:
+    - basePath: ~/
+      includedFiles:
+        - .bcrc
+      ignoredFiles: []

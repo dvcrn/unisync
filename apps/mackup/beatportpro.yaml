@@ -1,0 +1,7 @@
+name: Beatport Pro
+friendlyName: beatportpro
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.beatport.BeatportPro.plist
+      ignoredFiles: []

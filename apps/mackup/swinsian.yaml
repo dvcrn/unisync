@@ -1,0 +1,13 @@
+name: Swinsian
+friendlyName: swinsian
+files:
+    - basePath: ~/Library/Application Support/Swinsian/
+      includedFiles:
+        - Library.sqlite
+        - License.swinsianlicense
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.swinsian.Swinsian.plist
+        - com.swinsian.SwinsianDesktopWindow.plist
+      ignoredFiles: []

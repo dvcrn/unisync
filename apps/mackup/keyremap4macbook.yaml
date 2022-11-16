@@ -1,0 +1,12 @@
+name: KeyRemap4MacBook
+friendlyName: keyremap4macbook
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.pqrs.KeyRemap4MacBook.plist
+        - org.pqrs.KeyRemap4MacBook.multitouchextension.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/KeyRemap4MacBook/
+      includedFiles:
+        - private.xml
+      ignoredFiles: []

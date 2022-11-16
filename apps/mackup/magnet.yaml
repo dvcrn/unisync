@@ -1,0 +1,7 @@
+name: Magnet
+friendlyName: magnet
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.crowdcafe.windowmagnet.plist
+      ignoredFiles: []

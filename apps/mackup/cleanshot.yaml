@@ -1,0 +1,8 @@
+name: CleanShot
+friendlyName: cleanshot
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.getcleanshot.app-setapp.plist
+        - pl.maketheweb.cleanshotx.plist
+      ignoredFiles: []

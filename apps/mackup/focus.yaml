@@ -1,0 +1,7 @@
+name: Focus
+friendlyName: focus
+files:
+    - basePath: ~/Library/Application Support/Focus/
+      includedFiles:
+        - default.cfg
+      ignoredFiles: []

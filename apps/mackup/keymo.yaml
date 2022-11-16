@@ -1,0 +1,7 @@
+name: Keymo
+friendlyName: keymo
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.manytricks.Keymo.plist
+      ignoredFiles: []

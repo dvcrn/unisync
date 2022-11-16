@@ -1,0 +1,7 @@
+name: Rhythmbox
+friendlyName: rhythmbox
+files:
+    - basePath: ~/.gconf/apps/
+      includedFiles:
+        - rhythmbox
+      ignoredFiles: []

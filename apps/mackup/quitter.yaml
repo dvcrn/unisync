@@ -1,0 +1,7 @@
+name: Quitter
+friendlyName: quitter
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.marcoarment.quitter.plist
+      ignoredFiles: []

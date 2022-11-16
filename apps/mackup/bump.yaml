@@ -1,0 +1,7 @@
+name: Bump
+friendlyName: bump
+files:
+    - basePath: ~/
+      includedFiles:
+        - .bump.json
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Feeds
+friendlyName: feeds
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.feedsapp.Feeds.plist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Shifty
+friendlyName: shifty
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - io.natethompson.Shifty.plist
+      ignoredFiles: []

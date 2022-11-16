@@ -1,0 +1,7 @@
+name: Mendelay Desktop
+friendlyName: mendelaydesktop
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Mendeley Desktop
+      ignoredFiles: []

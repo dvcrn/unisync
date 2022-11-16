@@ -1,0 +1,8 @@
+name: Workrave
+friendlyName: workrave
+files:
+    - basePath: ~/.workrave/
+      includedFiles:
+        - id
+        - historystats
+      ignoredFiles: []

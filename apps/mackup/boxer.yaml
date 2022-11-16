@@ -1,0 +1,11 @@
+name: Boxer
+friendlyName: boxer
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.washboardabs.boxer.plist
+      ignoredFiles: []
+    - basePath: ~/Applications/
+      includedFiles:
+        - DOS Games
+      ignoredFiles: []

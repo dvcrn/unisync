@@ -1,0 +1,7 @@
+name: SBCL
+friendlyName: sbcl
+files:
+    - basePath: ~/
+      includedFiles:
+        - .sbclrc
+      ignoredFiles: []

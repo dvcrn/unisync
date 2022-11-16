@@ -1,0 +1,7 @@
+name: Tiles
+friendlyName: tiles
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.sempliva.Tiles.plist
+      ignoredFiles: []

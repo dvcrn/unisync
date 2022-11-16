@@ -1,0 +1,8 @@
+name: fasd
+friendlyName: fasd
+files:
+    - basePath: ~/
+      includedFiles:
+        - .fasd
+        - .fasdrc
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: MuteSpotifyAds
+friendlyName: mutespotifyads
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - de.simonmeusel.MuteSpotifyAds.plist
+      ignoredFiles: []

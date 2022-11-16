@@ -1,0 +1,7 @@
+name: fastlane
+friendlyName: fastlane
+files:
+    - basePath: ~/.fastlane/
+      includedFiles:
+        - completions
+      ignoredFiles: []

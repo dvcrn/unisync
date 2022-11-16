@@ -1,0 +1,11 @@
+name: TextExpander
+friendlyName: textexpander
+files:
+    - basePath: ~/Library/Application Support/TextExpander/
+      includedFiles:
+        - Settings.textexpander
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.smileonmymac.textexpander.plist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Screenhero
+friendlyName: screenhero
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.screenhero.screenhero.plist
+      ignoredFiles: []

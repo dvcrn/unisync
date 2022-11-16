@@ -1,0 +1,9 @@
+name: Janus
+friendlyName: janus
+files:
+    - basePath: ~/
+      includedFiles:
+        - .janus
+        - .vimrc.before
+        - .vimrc.after
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Ctags
+friendlyName: ctags
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ctags
+        - .ctags.d
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Splice
+friendlyName: splice
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.splice.Splice.plist
+      ignoredFiles: []

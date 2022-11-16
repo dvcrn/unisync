@@ -1,0 +1,7 @@
+name: Processing
+friendlyName: processing
+files:
+    - basePath: ~/Library/Processing/
+      includedFiles:
+        - preferences.txt
+      ignoredFiles: []

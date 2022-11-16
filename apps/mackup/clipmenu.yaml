@@ -1,0 +1,11 @@
+name: ClipMenu
+friendlyName: clipmenu
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - ClipMenu
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.naotaka.ClipMenu.plist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: i2cssh
+friendlyName: i2cssh
+files:
+    - basePath: ~/
+      includedFiles:
+        - .i2csshrc
+      ignoredFiles: []

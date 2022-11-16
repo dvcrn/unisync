@@ -1,0 +1,11 @@
+name: Fork
+friendlyName: fork
+files:
+    - basePath: ~/Library/Application Support/com.DanPristupov.Fork/
+      includedFiles:
+        - custom-commands.json
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.DanPristupov.Fork.plist
+      ignoredFiles: []

@@ -1,0 +1,16 @@
+name: R
+friendlyName: r
+files:
+    - basePath: ~/
+      includedFiles:
+        - .R
+        - .Rhistory
+        - .Rprofile
+        - .Rprofile.d
+        - .Renviron
+        - .Renviron.d
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.R-project.R.plist
+      ignoredFiles: []

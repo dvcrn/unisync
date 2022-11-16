@@ -1,0 +1,9 @@
+name: Volt
+friendlyName: volt
+files:
+    - basePath: ~/volt/
+      includedFiles:
+        - lock.json
+        - plugconf
+        - rc
+      ignoredFiles: []

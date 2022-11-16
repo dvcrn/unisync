@@ -1,0 +1,8 @@
+name: Poedit
+friendlyName: poedit
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.poedit.Poedit.cfg
+        - net.poedit.Poedit.plist
+      ignoredFiles: []

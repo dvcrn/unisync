@@ -1,0 +1,7 @@
+name: khd
+friendlyName: khd
+files:
+    - basePath: ~/
+      includedFiles:
+        - .khdrc
+      ignoredFiles: []

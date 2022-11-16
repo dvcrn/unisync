@@ -1,0 +1,7 @@
+name: GoodSync
+friendlyName: goodsync
+files:
+    - basePath: ~/
+      includedFiles:
+        - .goodsync
+      ignoredFiles: []

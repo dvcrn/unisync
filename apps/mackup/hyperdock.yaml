@@ -1,0 +1,12 @@
+name: HyperDock
+friendlyName: hyperdock
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - HyperDock
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - de.bahoom.HyperDock.plist
+        - de.bahoom.HyperDock.prefpane.plist
+      ignoredFiles: []

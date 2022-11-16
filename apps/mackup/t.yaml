@@ -1,0 +1,7 @@
+name: t
+friendlyName: t
+files:
+    - basePath: ~/
+      includedFiles:
+        - .trc
+      ignoredFiles: []

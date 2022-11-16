@@ -1,0 +1,7 @@
+name: iTermocil
+friendlyName: itermocil
+files:
+    - basePath: ~/
+      includedFiles:
+        - .itermocil
+      ignoredFiles: []

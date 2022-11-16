@@ -1,0 +1,7 @@
+name: SpaceLauncher
+friendlyName: spacelauncher
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - name.guoc.SpaceLauncher.plist
+      ignoredFiles: []

@@ -1,0 +1,9 @@
+name: Gradle
+friendlyName: gradle
+files:
+    - basePath: ~/.gradle/
+      includedFiles:
+        - gradle.properties
+        - init.gradle
+        - init.d
+      ignoredFiles: []

@@ -1,0 +1,12 @@
+name: Yummy FTP
+friendlyName: yummyftp
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.yummysoftware.yummy-ftp.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Yummy FTP/
+      includedFiles:
+        - DefaultBookmark.bkmk
+        - Bookmarks
+      ignoredFiles: []

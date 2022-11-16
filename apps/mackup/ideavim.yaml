@@ -1,0 +1,7 @@
+name: IdeaVim
+friendlyName: ideavim
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ideavimrc
+      ignoredFiles: []

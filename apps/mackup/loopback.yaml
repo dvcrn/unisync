@@ -1,0 +1,11 @@
+name: Loopback
+friendlyName: loopback
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.rogueamoeba.Loopback.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Loopback/
+      includedFiles:
+        - Devices.plist
+      ignoredFiles: []

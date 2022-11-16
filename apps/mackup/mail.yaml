@@ -1,0 +1,7 @@
+name: Mail
+friendlyName: mail
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.apple.mail.plist
+      ignoredFiles: []

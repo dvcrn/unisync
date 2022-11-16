@@ -1,0 +1,8 @@
+name: storyist-3
+friendlyName: storyist-3
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - .com.storyist.storyist.plist
+        - com.storyist.storyist.plist
+      ignoredFiles: []

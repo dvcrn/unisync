@@ -1,0 +1,7 @@
+name: PicGo
+friendlyName: picgo
+files:
+    - basePath: ~/Library/Application Support/picgo/
+      includedFiles:
+        - data.json
+      ignoredFiles: []

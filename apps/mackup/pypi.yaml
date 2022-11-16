@@ -1,0 +1,7 @@
+name: PyPI
+friendlyName: pypi
+files:
+    - basePath: ~/
+      includedFiles:
+        - .pypirc
+      ignoredFiles: []

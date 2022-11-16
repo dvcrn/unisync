@@ -1,0 +1,8 @@
+name: Mercurial
+friendlyName: mercurial
+files:
+    - basePath: ~/
+      includedFiles:
+        - .hgrc
+        - .hgignore_global
+      ignoredFiles: []

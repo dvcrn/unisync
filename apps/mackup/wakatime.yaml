@@ -1,0 +1,7 @@
+name: Wakatime
+friendlyName: wakatime
+files:
+    - basePath: ~/
+      includedFiles:
+        - .wakatime.cfg
+      ignoredFiles: []

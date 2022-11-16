@@ -1,0 +1,11 @@
+name: Typinator
+friendlyName: typinator
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Typinator
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.macility.typinator2.plist
+      ignoredFiles: []

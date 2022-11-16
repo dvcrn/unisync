@@ -1,0 +1,11 @@
+name: Charles
+friendlyName: charles
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Charles
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.xk72.charles.config
+      ignoredFiles: []

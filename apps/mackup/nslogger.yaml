@@ -1,0 +1,7 @@
+name: NSLogger
+friendlyName: nslogger
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.florentpillet.NSLogger.plist
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Spacemacs
+friendlyName: spacemacs
+files:
+    - basePath: ~/
+      includedFiles:
+        - .spacemacs
+        - .spacemacs.d
+      ignoredFiles: []

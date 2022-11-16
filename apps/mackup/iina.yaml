@@ -1,0 +1,11 @@
+name: IINA
+friendlyName: iina
+files:
+    - basePath: ~/Library/Application Support/com.colliderli.iina/
+      includedFiles:
+        - input_conf
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.colliderli.iina.plist
+      ignoredFiles: []

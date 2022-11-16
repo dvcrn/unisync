@@ -1,0 +1,12 @@
+name: Bartender
+friendlyName: bartender
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.surteesstudios.Bartender.plist
+        - com.surteesstudios.Bartender-setapp.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Bartender/
+      includedFiles:
+        - Bartender.BartenderPreferences
+      ignoredFiles: []

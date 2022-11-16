@@ -1,0 +1,7 @@
+name: Paintbrush
+friendlyName: paintbrush
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.soggywaffles.Paintbrush.plist
+      ignoredFiles: []

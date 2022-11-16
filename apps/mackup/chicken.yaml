@@ -1,0 +1,7 @@
+name: Chicken
+friendlyName: chicken
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.sourceforge.chicken.plist
+      ignoredFiles: []

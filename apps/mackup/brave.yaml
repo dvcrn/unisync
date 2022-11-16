@@ -1,0 +1,7 @@
+name: Brave
+friendlyName: brave
+files:
+    - basePath: ~/Library/Application Support/BraveSoftware/Brave-Browser/Default/
+      includedFiles:
+        - Preferences
+      ignoredFiles: []

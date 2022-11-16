@@ -1,0 +1,7 @@
+name: grsync
+friendlyName: grsync
+files:
+    - basePath: ~/.grsync/
+      includedFiles:
+        - grsync.ini
+      ignoredFiles: []

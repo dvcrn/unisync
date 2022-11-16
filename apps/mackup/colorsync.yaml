@@ -1,0 +1,7 @@
+name: ColorSync
+friendlyName: colorsync
+files:
+    - basePath: ~/Library/ColorSync/
+      includedFiles:
+        - Profiles
+      ignoredFiles: []

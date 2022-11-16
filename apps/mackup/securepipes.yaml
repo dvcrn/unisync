@@ -1,0 +1,13 @@
+name: Secure Pipes
+friendlyName: securepipes
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.edgeservices.connections.plist
+        - net.edgeservices.Secure-Pipes.plist
+        - net.edgeservices.sp-config.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Secure Pipes
+      ignoredFiles: []

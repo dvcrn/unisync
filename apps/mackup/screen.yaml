@@ -1,0 +1,7 @@
+name: Screen
+friendlyName: screen
+files:
+    - basePath: ~/
+      includedFiles:
+        - .screenrc
+      ignoredFiles: []

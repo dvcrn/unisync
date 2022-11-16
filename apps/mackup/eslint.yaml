@@ -1,0 +1,12 @@
+name: ESLint
+friendlyName: eslint
+files:
+    - basePath: ~/
+      includedFiles:
+        - .eslintrc.js
+        - .eslintrc.yaml
+        - .eslintrc.yml
+        - .eslintrc.json
+        - .eslintrc
+        - .eslintignore
+      ignoredFiles: []

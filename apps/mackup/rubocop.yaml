@@ -1,0 +1,7 @@
+name: Rubocop
+friendlyName: rubocop
+files:
+    - basePath: ~/
+      includedFiles:
+        - .rubocop.yml
+      ignoredFiles: []

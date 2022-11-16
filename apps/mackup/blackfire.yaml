@@ -1,0 +1,7 @@
+name: Blackfire
+friendlyName: blackfire
+files:
+    - basePath: ~/
+      includedFiles:
+        - .blackfire.ini
+      ignoredFiles: []

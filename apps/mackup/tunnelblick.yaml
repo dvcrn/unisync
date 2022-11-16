@@ -1,0 +1,7 @@
+name: Tunnelblick
+friendlyName: tunnelblick
+files:
+    - basePath: ~/Library/Application Support/Tunnelblick/
+      includedFiles:
+        - Configurations
+      ignoredFiles: []

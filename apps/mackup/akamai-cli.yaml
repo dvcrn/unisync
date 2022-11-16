@@ -1,0 +1,7 @@
+name: Akamai-CLI
+friendlyName: akamai-cli
+files:
+    - basePath: ~/
+      includedFiles:
+        - .edgerc
+      ignoredFiles: []

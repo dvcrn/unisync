@@ -1,0 +1,7 @@
+name: Irssi
+friendlyName: irssi
+files:
+    - basePath: ~/
+      includedFiles:
+        - .irssi
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Billings Pro Server Admin
+friendlyName: billingsproserveradmin
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.marketcircle.BillingsProServerAdmin.plist
+      ignoredFiles: []

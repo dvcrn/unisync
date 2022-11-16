@@ -1,0 +1,11 @@
+name: Hazel
+friendlyName: hazel
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Hazel
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.noodlesoft.Hazel.plist
+      ignoredFiles: []

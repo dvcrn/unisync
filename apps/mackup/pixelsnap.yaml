@@ -1,0 +1,7 @@
+name: PixelSnap
+friendlyName: pixelsnap
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.getpixelsnap.app.plist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: ControlPlane
+friendlyName: controlplane
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.dustinrue.ControlPlane.plist
+      ignoredFiles: []

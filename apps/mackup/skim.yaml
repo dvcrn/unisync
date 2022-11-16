@@ -1,0 +1,7 @@
+name: Skim
+friendlyName: skim
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.sourceforge.skim-app.skim.plist
+      ignoredFiles: []

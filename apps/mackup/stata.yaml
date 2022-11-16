@@ -1,0 +1,13 @@
+name: Stata
+friendlyName: stata
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Stata
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.stata.stata12.plist
+        - com.stata.stata13.plist
+        - Stata 13 Preferences
+      ignoredFiles: []

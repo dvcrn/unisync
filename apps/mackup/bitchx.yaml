@@ -1,0 +1,8 @@
+name: Bitchx
+friendlyName: bitchx
+files:
+    - basePath: ~/
+      includedFiles:
+        - .bitchxrc
+        - .ircservers
+      ignoredFiles: []

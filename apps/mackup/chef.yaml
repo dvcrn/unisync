@@ -1,0 +1,7 @@
+name: Chef
+friendlyName: chef
+files:
+    - basePath: ~/
+      includedFiles:
+        - .chef
+      ignoredFiles: []

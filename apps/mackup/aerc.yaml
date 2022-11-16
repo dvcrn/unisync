@@ -1,0 +1,7 @@
+name: aerc
+friendlyName: aerc
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - aerc
+      ignoredFiles: []

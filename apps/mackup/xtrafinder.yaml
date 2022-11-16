@@ -1,0 +1,7 @@
+name: XtraFinder
+friendlyName: xtrafinder
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.trankynam.XtraFinder.plist
+      ignoredFiles: []

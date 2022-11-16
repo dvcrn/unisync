@@ -1,0 +1,11 @@
+name: Popcorn-Time
+friendlyName: popcorn-time
+files:
+    - basePath: ~/Library/Application Support/Popcorn-Time/data/
+      includedFiles:
+        - bookmarks.db
+        - settings.db
+        - watched.db
+        - movies.db
+        - shows.db
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: mtmr
+friendlyName: mtmr
+files:
+    - basePath: ~/Library/Application Support/MTMR/
+      includedFiles:
+        - items.json
+      ignoredFiles: []

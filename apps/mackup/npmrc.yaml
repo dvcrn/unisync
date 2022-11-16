@@ -1,0 +1,7 @@
+name: npmrc
+friendlyName: npmrc
+files:
+    - basePath: ~/
+      includedFiles:
+        - .npmrcs
+      ignoredFiles: []

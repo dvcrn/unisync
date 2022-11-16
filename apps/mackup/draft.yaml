@@ -1,0 +1,7 @@
+name: Draft
+friendlyName: draft
+files:
+    - basePath: ~/.draft/
+      includedFiles:
+        - config.toml
+      ignoredFiles: []

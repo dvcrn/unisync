@@ -1,0 +1,10 @@
+name: Factorio
+friendlyName: factorio
+files:
+    - basePath: ~/Library/Application Support/factorio/
+      includedFiles:
+        - config
+        - mods
+        - saves
+        - player-data.json
+      ignoredFiles: []

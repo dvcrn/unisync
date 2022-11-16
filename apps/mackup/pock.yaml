@@ -1,0 +1,7 @@
+name: Pock
+friendlyName: pock
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.pigigaldi.pock.plist
+      ignoredFiles: []

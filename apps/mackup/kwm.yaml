@@ -1,0 +1,7 @@
+name: Kwm
+friendlyName: kwm
+files:
+    - basePath: ~/
+      includedFiles:
+        - .kwm
+      ignoredFiles: []

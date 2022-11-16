@@ -1,0 +1,11 @@
+name: Spectacle
+friendlyName: spectacle
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.divisiblebyzero.Spectacle.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Spectacle
+      ignoredFiles: []

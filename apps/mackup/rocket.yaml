@@ -1,0 +1,11 @@
+name: Rocket
+friendlyName: rocket
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.matthewpalmer.Rocket.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Rocket
+      ignoredFiles: []

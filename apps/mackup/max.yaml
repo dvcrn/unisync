@@ -1,0 +1,7 @@
+name: Max
+friendlyName: max
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.sbooth.Max.plist
+      ignoredFiles: []

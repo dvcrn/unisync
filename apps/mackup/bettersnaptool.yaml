@@ -1,0 +1,11 @@
+name: BetterSnapTool
+friendlyName: bettersnaptool
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.hegenberg.BetterSnapTool.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - BetterSnapTool
+      ignoredFiles: []

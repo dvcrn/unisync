@@ -1,0 +1,13 @@
+name: Soulver
+friendlyName: soulver
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Soulver
+        - Soulver 3
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.acqualia.soulver.plist
+        - app.soulver.mac.plist
+      ignoredFiles: []

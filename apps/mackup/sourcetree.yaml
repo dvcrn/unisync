@@ -1,0 +1,10 @@
+name: SourceTree
+friendlyName: sourcetree
+files:
+    - basePath: ~/Library/Application Support/SourceTree/
+      includedFiles:
+        - sourcetree.license
+        - browser.plist
+        - hgrc_sourcetree
+        - hostingservices.plist
+      ignoredFiles: []

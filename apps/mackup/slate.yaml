@@ -1,0 +1,12 @@
+name: Slate
+friendlyName: slate
+files:
+    - basePath: ~/
+      includedFiles:
+        - .slate
+        - .slate.js
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - com.slate.Slate
+      ignoredFiles: []

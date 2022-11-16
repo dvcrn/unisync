@@ -1,0 +1,20 @@
+name: GoLand
+friendlyName: goland
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.jetbrains.gogland-EAP.plist
+        - Gogland1.0
+        - GoLand2017.3
+        - GoLand2018.1
+        - GoLand2018.2
+        - GoLand2018.3
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Gogland1.0
+        - GoLand2017.3
+        - GoLand2018.1
+        - GoLand2018.2
+        - GoLand2018.3
+      ignoredFiles: []

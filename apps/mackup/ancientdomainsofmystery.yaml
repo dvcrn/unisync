@@ -1,0 +1,7 @@
+name: Ancient Domains of Mystery
+friendlyName: ancientdomainsofmystery
+files:
+    - basePath: ~/
+      includedFiles:
+        - .adom.data
+      ignoredFiles: []

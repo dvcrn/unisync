@@ -1,0 +1,30 @@
+name: Vim
+friendlyName: vim
+files:
+    - basePath: ~/.vim/
+      includedFiles:
+        - autoload
+        - after
+        - colors
+        - doc
+        - ftdetect
+        - ftplugin
+        - indent
+        - pack
+        - spell
+        - syntax
+        - vimrc
+      ignoredFiles: []
+    - basePath: ~/.vim/plugin/
+      includedFiles:
+        - settings
+      ignoredFiles: []
+    - basePath: ~/
+      includedFiles:
+        - .gvimrc
+        - .gvimrc.after
+        - .gvimrc.before
+        - .vimrc
+        - .vimrc.after
+        - .vimrc.before
+      ignoredFiles: []

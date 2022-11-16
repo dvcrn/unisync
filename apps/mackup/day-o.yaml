@@ -1,0 +1,7 @@
+name: Day-O
+friendlyName: day-o
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.shauninman.Day-O.plist
+      ignoredFiles: []

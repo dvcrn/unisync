@@ -1,0 +1,7 @@
+name: Gitbox
+friendlyName: gitbox
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.oleganza.gitbox.plist
+      ignoredFiles: []

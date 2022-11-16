@@ -1,0 +1,7 @@
+name: Flux
+friendlyName: flux
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.herf.Flux.plist
+      ignoredFiles: []

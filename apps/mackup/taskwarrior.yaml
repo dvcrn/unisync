@@ -1,0 +1,7 @@
+name: Taskwarrior
+friendlyName: taskwarrior
+files:
+    - basePath: ~/
+      includedFiles:
+        - .taskrc
+      ignoredFiles: []

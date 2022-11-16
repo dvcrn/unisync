@@ -1,0 +1,7 @@
+name: DbVisualizer
+friendlyName: dbvisualizer
+files:
+    - basePath: ~/
+      includedFiles:
+        - .dbvis
+      ignoredFiles: []

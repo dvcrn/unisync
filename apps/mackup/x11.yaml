@@ -1,0 +1,10 @@
+name: X11
+friendlyName: x11
+files:
+    - basePath: ~/
+      includedFiles:
+        - .Xmodmap
+        - .Xresources
+        - .fonts
+        - .xinitrc
+      ignoredFiles: []

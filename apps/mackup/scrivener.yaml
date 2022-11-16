@@ -1,0 +1,11 @@
+name: Scrivener
+friendlyName: scrivener
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.literatureandlatte.scrivener2.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Scrivener
+      ignoredFiles: []

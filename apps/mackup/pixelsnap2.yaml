@@ -1,0 +1,7 @@
+name: PixelSnap 2
+friendlyName: pixelsnap2
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - pl.maketheweb.pixelsnap2.plist
+      ignoredFiles: []

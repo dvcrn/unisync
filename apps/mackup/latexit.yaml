@@ -1,0 +1,7 @@
+name: LaTeXiT
+friendlyName: latexit
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - fr.chachatelier.pierre.LaTeXiT.plist
+      ignoredFiles: []

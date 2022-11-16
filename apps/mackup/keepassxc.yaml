@@ -1,0 +1,11 @@
+name: KeePassXC
+friendlyName: keepassxc
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.keepassxc.keepassxc.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/keepassxc/
+      includedFiles:
+        - keepassxc.ini
+      ignoredFiles: []

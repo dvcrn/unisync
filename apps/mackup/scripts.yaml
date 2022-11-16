@@ -1,0 +1,7 @@
+name: Scripts
+friendlyName: scripts
+files:
+    - basePath: ~/Library/
+      includedFiles:
+        - Scripts
+      ignoredFiles: []

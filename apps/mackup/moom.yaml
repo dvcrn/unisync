@@ -1,0 +1,11 @@
+name: Moom
+friendlyName: moom
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.manytricks.Moom.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Many Tricks
+      ignoredFiles: []

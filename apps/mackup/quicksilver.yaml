@@ -1,0 +1,11 @@
+name: Quicksilver
+friendlyName: quicksilver
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.blacktree.Quicksilver.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Quicksilver
+      ignoredFiles: []

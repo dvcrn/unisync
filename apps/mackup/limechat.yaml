@@ -1,0 +1,7 @@
+name: LimeChat
+friendlyName: limechat
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.limechat.LimeChat-AppStore.plist
+      ignoredFiles: []

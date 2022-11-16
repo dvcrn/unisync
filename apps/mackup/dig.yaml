@@ -1,0 +1,7 @@
+name: dig
+friendlyName: dig
+files:
+    - basePath: ~/
+      includedFiles:
+        - .digrc
+      ignoredFiles: []

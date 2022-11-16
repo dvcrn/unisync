@@ -1,0 +1,7 @@
+name: Ghidra
+friendlyName: ghidra
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ghidra
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Vimperator
+friendlyName: vimperator
+files:
+    - basePath: ~/
+      includedFiles:
+        - .vimperator
+        - .vimperatorrc
+      ignoredFiles: []

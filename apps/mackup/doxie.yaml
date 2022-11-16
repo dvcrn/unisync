@@ -1,0 +1,7 @@
+name: Doxie
+friendlyName: doxie
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.getdoxie.doxie.plist
+      ignoredFiles: []

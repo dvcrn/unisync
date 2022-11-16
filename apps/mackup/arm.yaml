@@ -1,0 +1,7 @@
+name: Arm
+friendlyName: arm
+files:
+    - basePath: ~/.arm/
+      includedFiles:
+        - armrc
+      ignoredFiles: []

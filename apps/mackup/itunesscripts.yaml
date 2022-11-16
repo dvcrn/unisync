@@ -1,0 +1,7 @@
+name: iTunes Scripts
+friendlyName: itunesscripts
+files:
+    - basePath: ~/Library/iTunes/
+      includedFiles:
+        - Scripts
+      ignoredFiles: []

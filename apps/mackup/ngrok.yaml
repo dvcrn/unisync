@@ -1,0 +1,8 @@
+name: ngrok
+friendlyName: ngrok
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ngrok
+        - .ngrok2
+      ignoredFiles: []

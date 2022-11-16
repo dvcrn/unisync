@@ -1,0 +1,7 @@
+name: Cider
+friendlyName: cider
+files:
+    - basePath: ~/
+      includedFiles:
+        - .cider
+      ignoredFiles: []

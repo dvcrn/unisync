@@ -1,0 +1,24 @@
+name: Xcode
+friendlyName: xcode
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.apple.dt.Xcode.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Developer/Shared/Xcode/
+      includedFiles:
+        - Plug-ins
+      ignoredFiles: []
+    - basePath: ~/Library/Developer/Xcode/UserData/
+      includedFiles:
+        - CodeSnippets
+        - FontAndColorThemes
+        - KeyBindings
+        - Debugger
+        - xcdebugger
+        - SearchScopes.xcsclist
+      ignoredFiles: []
+    - basePath: ~/Library/Developer/Xcode/
+      includedFiles:
+        - Templates
+      ignoredFiles: []

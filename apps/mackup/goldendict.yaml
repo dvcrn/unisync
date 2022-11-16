@@ -1,0 +1,7 @@
+name: Goldendict
+friendlyName: goldendict
+files:
+    - basePath: ~/.goldendict/
+      includedFiles:
+        - config
+      ignoredFiles: []

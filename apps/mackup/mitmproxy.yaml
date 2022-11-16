@@ -1,0 +1,7 @@
+name: mitmproxy
+friendlyName: mitmproxy
+files:
+    - basePath: ~/.mitmproxy/
+      includedFiles:
+        - config.yaml
+      ignoredFiles: []

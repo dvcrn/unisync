@@ -1,0 +1,11 @@
+name: Gas Mask
+friendlyName: gasmask
+files:
+    - basePath: ~/Library/
+      includedFiles:
+        - Gas Mask
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - ee.clockwise.gmask.plist
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: chunkwm
+friendlyName: chunkwm
+files:
+    - basePath: ~/
+      includedFiles:
+        - .chunkwmrc
+        - .chunkwm_plugins
+      ignoredFiles: []

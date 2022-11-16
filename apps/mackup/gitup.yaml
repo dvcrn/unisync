@@ -1,0 +1,7 @@
+name: GitUp
+friendlyName: gitup
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - co.gitup.mac.plist
+      ignoredFiles: []

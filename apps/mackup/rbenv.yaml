@@ -1,0 +1,7 @@
+name: rbenv
+friendlyName: rbenv
+files:
+    - basePath: ~/.rbenv/
+      includedFiles:
+        - default_gems
+      ignoredFiles: []

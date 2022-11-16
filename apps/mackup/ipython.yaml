@@ -1,0 +1,7 @@
+name: IPython
+friendlyName: ipython
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ipython
+      ignoredFiles: []

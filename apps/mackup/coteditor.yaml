@@ -1,0 +1,11 @@
+name: CotEditor
+friendlyName: coteditor
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - CotEditor
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.coteditor.CotEditor.plist
+      ignoredFiles: []

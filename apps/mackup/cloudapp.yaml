@@ -1,0 +1,7 @@
+name: CloudApp
+friendlyName: cloudapp
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.linebreak.CloudAppMacOSX.plist
+      ignoredFiles: []

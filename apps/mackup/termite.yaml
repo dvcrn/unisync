@@ -1,0 +1,7 @@
+name: termite
+friendlyName: termite
+files:
+    - basePath: ~/termite/
+      includedFiles:
+        - config
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Swish
+friendlyName: swish
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - co.highlyopinionated.swish.plist
+      ignoredFiles: []

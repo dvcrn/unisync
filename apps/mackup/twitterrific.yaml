@@ -1,0 +1,7 @@
+name: Twitterrific
+friendlyName: twitterrific
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Twitterrific
+      ignoredFiles: []

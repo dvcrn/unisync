@@ -1,0 +1,7 @@
+name: Ventrilo
+friendlyName: ventrilo
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - Ventrilo
+      ignoredFiles: []

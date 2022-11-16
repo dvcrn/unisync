@@ -1,0 +1,7 @@
+name: Spectrwm
+friendlyName: spectrwm
+files:
+    - basePath: ~/
+      includedFiles:
+        - .spectrwm.conf
+      ignoredFiles: []

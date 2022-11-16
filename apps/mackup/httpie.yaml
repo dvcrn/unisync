@@ -1,0 +1,7 @@
+name: HTTPie
+friendlyName: httpie
+files:
+    - basePath: ~/.httpie/
+      includedFiles:
+        - config.json
+      ignoredFiles: []

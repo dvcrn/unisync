@@ -1,0 +1,7 @@
+name: MySQL
+friendlyName: mysql
+files:
+    - basePath: ~/
+      includedFiles:
+        - .my.cnf
+      ignoredFiles: []

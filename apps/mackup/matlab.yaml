@@ -1,0 +1,7 @@
+name: MATLAB
+friendlyName: matlab
+files:
+    - basePath: ~/
+      includedFiles:
+        - .matlab
+      ignoredFiles: []

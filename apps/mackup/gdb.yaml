@@ -1,0 +1,7 @@
+name: gdb
+friendlyName: gdb
+files:
+    - basePath: ~/
+      includedFiles:
+        - .gdbinit
+      ignoredFiles: []

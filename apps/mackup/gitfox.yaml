@@ -1,0 +1,9 @@
+name: GitFox
+friendlyName: gitfox
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.bytieful.Gitfox.plist
+        - com.bytieful.Gitfox-retail.plist
+        - com.bytieful.Gitfox-setapp.plist
+      ignoredFiles: []

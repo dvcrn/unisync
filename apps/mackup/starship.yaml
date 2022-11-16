@@ -1,0 +1,7 @@
+name: Starship
+friendlyName: starship
+files:
+    - basePath: ~/.config/
+      includedFiles:
+        - starship.toml
+      ignoredFiles: []

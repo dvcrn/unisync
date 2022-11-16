@@ -1,0 +1,7 @@
+name: ncmpcpp
+friendlyName: ncmpcpp
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ncmpcpp
+      ignoredFiles: []

@@ -1,0 +1,14 @@
+name: Bash
+friendlyName: bash
+files:
+    - basePath: ~/
+      includedFiles:
+        - .aliases
+        - .bash_aliases
+        - .bash_login
+        - .bash_logout
+        - .bashrc
+        - .profile
+        - .bash_profile
+        - .inputrc
+      ignoredFiles: []

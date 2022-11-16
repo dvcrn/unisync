@@ -1,0 +1,11 @@
+name: nvALT
+friendlyName: nvalt
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.elasticthreads.nv.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Notational Velocity
+      ignoredFiles: []

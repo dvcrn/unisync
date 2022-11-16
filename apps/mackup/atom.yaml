@@ -1,0 +1,16 @@
+name: Atom
+friendlyName: atom
+files:
+    - basePath: ~/.atom/
+      includedFiles:
+        - config.cson
+        - init.coffee
+        - keymap.cson
+        - keymaps
+        - snippets.cson
+        - styles.less
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.github.atom.plist
+      ignoredFiles: []

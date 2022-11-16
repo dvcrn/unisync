@@ -1,0 +1,7 @@
+name: myrepos
+friendlyName: myrepos
+files:
+    - basePath: ~/
+      includedFiles:
+        - .mrconfig
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Nethack
+friendlyName: nethack
+files:
+    - basePath: ~/
+      includedFiles:
+        - .nethackrc
+      ignoredFiles: []

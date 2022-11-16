@@ -1,0 +1,8 @@
+name: Divvy
+friendlyName: divvy
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.mizage.direct.Divvy.plist
+        - com.mizage.Divvy.plist
+      ignoredFiles: []

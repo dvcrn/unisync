@@ -1,0 +1,7 @@
+name: ripgrep
+friendlyName: ripgrep
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ripgreprc
+      ignoredFiles: []

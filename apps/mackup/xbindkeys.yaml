@@ -1,0 +1,7 @@
+name: xbindkeys
+friendlyName: xbindkeys
+files:
+    - basePath: ~/
+      includedFiles:
+        - .xbindkeysrc
+      ignoredFiles: []

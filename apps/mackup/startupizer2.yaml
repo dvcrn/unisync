@@ -1,0 +1,7 @@
+name: Startupizer2
+friendlyName: startupizer2
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Startupizer
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Amethyst
+friendlyName: amethyst
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.amethyst.Amethyst.plist
+      ignoredFiles: []

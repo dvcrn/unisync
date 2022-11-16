@@ -1,0 +1,7 @@
+name: Mosaic
+friendlyName: mosaic
+files:
+    - basePath: ~/Library/Application Support/com.lightpillar.Mosaic/
+      includedFiles:
+        - MosaicCoreData.storedata
+      ignoredFiles: []

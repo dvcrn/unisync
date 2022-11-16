@@ -1,0 +1,8 @@
+name: Planner
+friendlyName: planner
+files:
+    - basePath: ~/.var/app/com.github.alainm23.planner/
+      includedFiles:
+        - config
+        - data
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Curl
+friendlyName: curl
+files:
+    - basePath: ~/
+      includedFiles:
+        - .netrc
+        - .curlrc
+      ignoredFiles: []

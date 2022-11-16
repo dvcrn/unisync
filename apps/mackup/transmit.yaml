@@ -1,0 +1,12 @@
+name: Transmit
+friendlyName: transmit
+files:
+    - basePath: ~/Library/Application Support/Transmit/
+      includedFiles:
+        - Metadata
+        - Favorites
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.panic.Transmit.plist
+      ignoredFiles: []

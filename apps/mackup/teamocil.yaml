@@ -1,0 +1,7 @@
+name: Teamocil
+friendlyName: teamocil
+files:
+    - basePath: ~/
+      includedFiles:
+        - .teamocil
+      ignoredFiles: []

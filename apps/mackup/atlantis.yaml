@@ -1,0 +1,7 @@
+name: Atlantis
+friendlyName: atlantis
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Atlantis
+      ignoredFiles: []

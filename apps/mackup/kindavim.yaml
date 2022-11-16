@@ -1,0 +1,7 @@
+name: kindaVim
+friendlyName: kindavim
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - mo.com.sleeplessmind.kindaVim.plist
+      ignoredFiles: []

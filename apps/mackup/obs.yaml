@@ -1,0 +1,12 @@
+name: OBS
+friendlyName: obs
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.obsproject.obs-studio.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/obs-studio/
+      includedFiles:
+        - global.ini
+        - basic
+      ignoredFiles: []

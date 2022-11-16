@@ -1,0 +1,7 @@
+name: pass
+friendlyName: pass
+files:
+    - basePath: ~/
+      includedFiles:
+        - .password-store
+      ignoredFiles: []

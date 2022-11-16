@@ -1,0 +1,7 @@
+name: BitBar
+friendlyName: bitbar
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.matryer.BitBar.plist
+      ignoredFiles: []

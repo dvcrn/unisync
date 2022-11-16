@@ -1,0 +1,7 @@
+name: ghci
+friendlyName: ghci
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ghci
+      ignoredFiles: []

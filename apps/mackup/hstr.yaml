@@ -1,0 +1,8 @@
+name: hstr
+friendlyName: hstr
+files:
+    - basePath: ~/
+      includedFiles:
+        - .hstr_favorites
+        - .hstr_blacklist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: HyperSwitch
+friendlyName: hyperswitch
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.bahoom.HyperSwitch.plist
+      ignoredFiles: []

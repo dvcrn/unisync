@@ -1,0 +1,11 @@
+name: Stay
+friendlyName: stay
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.cordlessdog.Stay.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Stay
+      ignoredFiles: []

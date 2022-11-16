@@ -1,0 +1,7 @@
+name: Hammerspoon
+friendlyName: hammerspoon
+files:
+    - basePath: ~/
+      includedFiles:
+        - .hammerspoon
+      ignoredFiles: []

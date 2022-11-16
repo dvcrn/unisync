@@ -1,0 +1,11 @@
+name: Tower 2
+friendlyName: tower2
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - com.fournova.Tower2
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.fournova.Tower2.plist
+      ignoredFiles: []

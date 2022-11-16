@@ -1,0 +1,8 @@
+name: Sizzy
+friendlyName: sizzy
+files:
+    - basePath: ~/Library/Application Support/Sizzy/
+      includedFiles:
+        - config.json
+        - window-state.json
+      ignoredFiles: []

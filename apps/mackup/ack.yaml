@@ -1,0 +1,7 @@
+name: Ack
+friendlyName: ack
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ackrc
+      ignoredFiles: []

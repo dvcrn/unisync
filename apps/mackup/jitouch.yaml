@@ -1,0 +1,7 @@
+name: Jitouch
+friendlyName: jitouch
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.jitouch.Jitouch.plist
+      ignoredFiles: []

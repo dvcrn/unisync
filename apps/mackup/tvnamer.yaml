@@ -1,0 +1,7 @@
+name: tvnamer
+friendlyName: tvnamer
+files:
+    - basePath: ~/
+      includedFiles:
+        - .tvnamer.json
+      ignoredFiles: []

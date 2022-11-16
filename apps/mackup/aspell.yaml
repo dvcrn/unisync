@@ -1,0 +1,9 @@
+name: Aspell
+friendlyName: aspell
+files:
+    - basePath: ~/
+      includedFiles:
+        - .aspell.conf
+        - .aspell.en.prepl
+        - .aspell.en.pws
+      ignoredFiles: []

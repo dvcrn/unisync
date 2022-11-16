@@ -1,0 +1,7 @@
+name: SpaceVim
+friendlyName: spacevim
+files:
+    - basePath: ~/
+      includedFiles:
+        - .SpaceVim.d
+      ignoredFiles: []

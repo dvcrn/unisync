@@ -1,0 +1,7 @@
+name: cVim
+friendlyName: cvim
+files:
+    - basePath: ~/
+      includedFiles:
+        - .cvimrc
+      ignoredFiles: []

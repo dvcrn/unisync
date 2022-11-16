@@ -1,0 +1,63 @@
+name: Adobe Illustrator
+friendlyName: adobeillustrator
+files:
+    - basePath: ~/Library/Preferences/Adobe Illustrator 24 Settings/en_US/
+      includedFiles:
+        - Adobe Illustrator Prefs
+        - Last Used Artboard Export Settings
+        - Last Used Asset Export Settings
+        - Modified Workspaces
+        - Perspective grid Presets
+        - Print Presets
+        - Transparency flattener presets
+        - VariableWidthProfiles
+        - Vectorizing Presets
+        - Workspaces
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/Adobe Illustrator 24 Settings/en_US/Tools/
+      includedFiles:
+        - Tools Panel Presets
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Adobe/
+      includedFiles:
+        - Adobe Illustrator 17
+        - Adobe Illustrator 18
+        - Adobe Illustrator 19
+        - Adobe Illustrator 20
+        - OOBE
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Adobe/Adobe Illustrator 23/en_US/
+      includedFiles:
+        - Adobe SVG Filters.svg
+        - Swatches
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Adobe/Adobe Illustrator 24/en_US/
+      includedFiles:
+        - Adobe SVG Filters.svg
+        - Swatches
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - Adobe Illustrator 17 Settings
+        - Adobe Illustrator 18 Settings
+        - Adobe Illustrator 19 Settings
+        - Adobe Illustrator 20 Settings
+        - com.adobe.illustrator.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/Adobe Illustrator 23 Settings/en_US/
+      includedFiles:
+        - Adobe Illustrator Prefs
+        - Last Used Artboard Export Settings
+        - Last Used Asset Export Settings
+        - Modified Workspaces
+        - Perspective grid Presets
+        - Print Presets
+        - Transparency flattener presets
+        - VariableWidthProfiles
+        - Vectorizing Presets
+        - Workspaces
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/Adobe Illustrator 23 Settings/en_US/Tools/
+      includedFiles:
+        - Tools Panel Presets
+      ignoredFiles: []

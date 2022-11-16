@@ -1,0 +1,11 @@
+name: ColorSlurp
+friendlyName: colorslurp
+files:
+    - basePath: ~/Library/Containers/com.IdeaPunch.ColorSlurp/Data/Library/Application Support/
+      includedFiles:
+        - default.realm
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.IdeaPunch.ColorSlurp.plist
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Pentadactyl
+friendlyName: pentadactyl
+files:
+    - basePath: ~/
+      includedFiles:
+        - .pentadactyl
+        - .pentadactylrc
+      ignoredFiles: []

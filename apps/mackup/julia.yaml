@@ -1,0 +1,11 @@
+name: Julia
+friendlyName: julia
+files:
+    - basePath: ~/
+      includedFiles:
+        - .juliarc.jl
+      ignoredFiles: []
+    - basePath: ~/.julia/config/
+      includedFiles:
+        - startup.jl
+      ignoredFiles: []

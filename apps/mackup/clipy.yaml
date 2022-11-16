@@ -1,0 +1,7 @@
+name: Clipy
+friendlyName: clipy
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.clipy-app.Clipy.plist
+      ignoredFiles: []

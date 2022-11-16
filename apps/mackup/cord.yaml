@@ -1,0 +1,7 @@
+name: CoRD
+friendlyName: cord
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - CoRD
+      ignoredFiles: []

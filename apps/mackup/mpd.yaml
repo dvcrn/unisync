@@ -1,0 +1,8 @@
+name: mpd
+friendlyName: mpd
+files:
+    - basePath: ~/
+      includedFiles:
+        - .mpd
+        - .mpdconf
+      ignoredFiles: []

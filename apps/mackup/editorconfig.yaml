@@ -1,0 +1,7 @@
+name: EditorConfig
+friendlyName: editorconfig
+files:
+    - basePath: ~/
+      includedFiles:
+        - .editorconfig
+      ignoredFiles: []

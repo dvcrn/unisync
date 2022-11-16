@@ -1,0 +1,60 @@
+name: gimp
+friendlyName: gimp
+files:
+    - basePath: ~/.gimp/
+      includedFiles:
+        - colorrc
+        - contextrc
+        - controllerrc
+        - devicerc
+        - dockrc
+        - gimprc
+        - gtkrc
+        - menurc
+        - parasiterc
+        - pluginrc
+        - profilerc
+        - sessionrc
+        - templaterc
+        - themerc
+        - toolrc
+        - unitrc
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/GIMP/2.8/
+      includedFiles:
+        - colorrc
+        - contextrc
+        - controllerrc
+        - devicerc
+        - dockrc
+        - gimprc
+        - gtkrc
+        - menurc
+        - parasiterc
+        - pluginrc
+        - profilerc
+        - sessionrc
+        - templaterc
+        - themerc
+        - toolrc
+        - unitrc
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/GIMP/2.10/
+      includedFiles:
+        - colorrc
+        - contextrc
+        - controllerrc
+        - devicerc
+        - dockrc
+        - gimprc
+        - gtkrc
+        - menurc
+        - parasiterc
+        - pluginrc
+        - profilerc
+        - sessionrc
+        - templaterc
+        - themerc
+        - toolrc
+        - unitrc
+      ignoredFiles: []

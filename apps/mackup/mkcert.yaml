@@ -1,0 +1,7 @@
+name: mkcert
+friendlyName: mkcert
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - mkcert
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Prezto
+friendlyName: prezto
+files:
+    - basePath: ~/
+      includedFiles:
+        - .zpreztorc
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Nano
+friendlyName: nano
+files:
+    - basePath: ~/
+      includedFiles:
+        - .nanorc
+      ignoredFiles: []

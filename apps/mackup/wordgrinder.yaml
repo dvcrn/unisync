@@ -1,0 +1,7 @@
+name: wordgrinder
+friendlyName: wordgrinder
+files:
+    - basePath: ~/
+      includedFiles:
+        - .wordgrinder.settings
+      ignoredFiles: []

@@ -1,0 +1,9 @@
+name: Perl
+friendlyName: perl
+files:
+    - basePath: ~/
+      includedFiles:
+        - .perltidyrc
+        - .perlcriticrc
+        - .proverc
+      ignoredFiles: []

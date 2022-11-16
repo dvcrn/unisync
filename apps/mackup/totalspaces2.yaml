@@ -1,0 +1,7 @@
+name: TotalSpaces2
+friendlyName: totalspaces2
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.binaryage.TotalSpaces2.plist
+      ignoredFiles: []

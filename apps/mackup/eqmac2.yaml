@@ -1,0 +1,7 @@
+name: eqMac2
+friendlyName: eqmac2
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.bitgapp.eqMac2.plist
+      ignoredFiles: []

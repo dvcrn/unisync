@@ -1,0 +1,11 @@
+name: Cyberduck
+friendlyName: cyberduck
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Cyberduck
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - ch.sudo.cyberduck.plist
+      ignoredFiles: []

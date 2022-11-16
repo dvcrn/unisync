@@ -1,0 +1,7 @@
+name: Lollypop
+friendlyName: lollypop
+files:
+    - basePath: ~/.local/share/
+      includedFiles:
+        - lollypop
+      ignoredFiles: []

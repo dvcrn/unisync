@@ -1,0 +1,7 @@
+name: OmniGraffle
+friendlyName: omnigraffle
+files:
+    - basePath: ~/Library/Application Support/The Omni Group/
+      includedFiles:
+        - OmniGraffle
+      ignoredFiles: []

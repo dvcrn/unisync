@@ -1,0 +1,11 @@
+name: pnpm
+friendlyName: pnpm
+files:
+    - basePath: ~/.pnpm/
+      includedFiles:
+        - global_pnpmfile.js
+      ignoredFiles: []
+    - basePath: ~/.pnpm-store/2/
+      includedFiles:
+        - store.json
+      ignoredFiles: []

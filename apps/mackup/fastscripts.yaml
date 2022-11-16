@@ -1,0 +1,11 @@
+name: FastScripts
+friendlyName: fastscripts
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.red-sweater.fastscripts.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - FastScripts
+      ignoredFiles: []

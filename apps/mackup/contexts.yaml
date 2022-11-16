@@ -1,0 +1,7 @@
+name: Contexts
+friendlyName: contexts
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.contextsformac.Contexts.plist
+      ignoredFiles: []

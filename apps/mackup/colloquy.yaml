@@ -1,0 +1,11 @@
+name: Colloquy
+friendlyName: colloquy
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - info.colloquy.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Colloquy
+      ignoredFiles: []

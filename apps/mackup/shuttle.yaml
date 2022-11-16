@@ -1,0 +1,7 @@
+name: Shuttle
+friendlyName: shuttle
+files:
+    - basePath: ~/
+      includedFiles:
+        - .shuttle.json
+      ignoredFiles: []

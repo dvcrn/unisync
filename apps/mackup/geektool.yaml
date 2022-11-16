@@ -1,0 +1,11 @@
+name: GeekTool
+friendlyName: geektool
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.tynsoe.GeekTool.plist
+        - org.tynsoe.geeklet.file.plist
+        - org.tynsoe.geeklet.image.plist
+        - org.tynsoe.geeklet.shell.plist
+        - org.tynsoe.geektool3.plist
+      ignoredFiles: []

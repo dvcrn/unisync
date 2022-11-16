@@ -1,0 +1,8 @@
+name: SSH
+friendlyName: ssh
+files:
+    - basePath: ~/.ssh/
+      includedFiles:
+        - config
+        - authorized_keys
+      ignoredFiles: []

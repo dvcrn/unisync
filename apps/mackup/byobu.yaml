@@ -1,0 +1,28 @@
+name: Byobu
+friendlyName: byobu
+files:
+    - basePath: ~/.byobu/
+      includedFiles:
+        - .screenrc
+        - .tmux.conf
+        - backend
+        - color
+        - color.tmux
+        - datetime.tmux
+        - keybindings
+        - keybindings.tmux
+        - profile
+        - profile.tmux
+        - prompt
+        - prompt.tmux
+        - status
+        - statusrc
+        - windows
+        - windows.tmux
+      ignoredFiles: []
+    - basePath: ~/
+      includedFiles:
+        - .byoburc
+        - .byoburc.tmux
+        - .byoburc.screen
+      ignoredFiles: []

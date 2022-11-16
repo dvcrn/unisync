@@ -1,0 +1,11 @@
+name: Querious
+friendlyName: querious
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.araeliumgroup.querious.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Querious
+      ignoredFiles: []

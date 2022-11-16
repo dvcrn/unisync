@@ -1,0 +1,7 @@
+name: Awareness
+friendlyName: awareness
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.futureproof.awareness.plist
+      ignoredFiles: []

@@ -1,0 +1,11 @@
+name: Zsh
+friendlyName: zsh
+files:
+    - basePath: ~/
+      includedFiles:
+        - .zshenv
+        - .zprofile
+        - .zshrc
+        - .zlogin
+        - .zlogout
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Drush
+friendlyName: drush
+files:
+    - basePath: ~/
+      includedFiles:
+        - .drush
+      ignoredFiles: []

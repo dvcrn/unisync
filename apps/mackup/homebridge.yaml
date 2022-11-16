@@ -1,0 +1,7 @@
+name: Homebridge
+friendlyName: homebridge
+files:
+    - basePath: ~/
+      includedFiles:
+        - .homebridge
+      ignoredFiles: []

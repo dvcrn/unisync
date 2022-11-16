@@ -1,0 +1,10 @@
+name: asdf
+friendlyName: asdf
+files:
+    - basePath: ~/
+      includedFiles:
+        - .asdfrc
+        - .tool-versions
+        - .default-gems
+        - .default-npm-packages
+      ignoredFiles: []

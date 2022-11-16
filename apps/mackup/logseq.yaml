@@ -1,0 +1,7 @@
+name: Logseq
+friendlyName: logseq
+files:
+    - basePath: ~/
+      includedFiles:
+        - .logseq
+      ignoredFiles: []

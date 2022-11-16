@@ -1,0 +1,7 @@
+name: Mumu
+friendlyName: mumu
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Mumu
+      ignoredFiles: []

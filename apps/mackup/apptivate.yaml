@@ -1,0 +1,7 @@
+name: Apptivate
+friendlyName: apptivate
+files:
+    - basePath: ~/Library/Application Support/Apptivate/
+      includedFiles:
+        - hotkeys
+      ignoredFiles: []

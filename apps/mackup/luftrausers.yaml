@@ -1,0 +1,7 @@
+name: Luftrausers
+friendlyName: luftrausers
+files:
+    - basePath: ~/
+      includedFiles:
+        - .LUFTRAUSERS
+      ignoredFiles: []

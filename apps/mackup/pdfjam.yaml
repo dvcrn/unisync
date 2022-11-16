@@ -1,0 +1,7 @@
+name: PDFjam
+friendlyName: pdfjam
+files:
+    - basePath: ~/
+      includedFiles:
+        - .pdfjam.conf
+      ignoredFiles: []

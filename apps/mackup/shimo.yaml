@@ -1,0 +1,11 @@
+name: Shimo
+friendlyName: shimo
+files:
+    - basePath: ~/Library/Application Support/Shimo/
+      includedFiles:
+        - ShimoProfiles.xml
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.chungwasoft.Shimo.plist
+      ignoredFiles: []

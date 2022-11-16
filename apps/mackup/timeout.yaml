@@ -1,0 +1,7 @@
+name: TimeOut
+friendlyName: timeout
+files:
+    - basePath: ~/Library/Group Containers/
+      includedFiles:
+        - 6Z7QW53WB6.com.dejal.timeout
+      ignoredFiles: []

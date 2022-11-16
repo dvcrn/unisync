@@ -1,0 +1,21 @@
+name: Mailmate
+friendlyName: mailmate
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.freron.MailMate.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Mailmate/
+      includedFiles:
+        - com.freron.MailMate.pid
+        - Identities.plist
+        - Mailboxes.plist
+        - Signatures.plist
+        - Sources.plist
+        - Submission.plist
+        - Tags.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Mailmate/Resources/
+      includedFiles:
+        - KeyBindings
+      ignoredFiles: []

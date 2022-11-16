@@ -1,0 +1,7 @@
+name: Homebrew
+friendlyName: homebrew
+files:
+    - basePath: ~/
+      includedFiles:
+        - .Brewfile
+      ignoredFiles: []

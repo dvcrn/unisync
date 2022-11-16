@@ -1,0 +1,11 @@
+name: Scenario
+friendlyName: scenario
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.lagente.scenario.plist
+      ignoredFiles: []
+    - basePath: ~/Library/
+      includedFiles:
+        - Scenario
+      ignoredFiles: []

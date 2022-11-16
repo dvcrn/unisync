@@ -1,0 +1,11 @@
+name: PopClip
+friendlyName: popclip
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.pilotmoon.popclip.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/PopClip/
+      includedFiles:
+        - Extensions
+      ignoredFiles: []

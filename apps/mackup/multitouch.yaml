@@ -1,0 +1,7 @@
+name: Multitouch
+friendlyName: multitouch
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.brassmonkery.Multitouch.plist
+      ignoredFiles: []

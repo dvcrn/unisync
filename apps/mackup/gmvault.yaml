@@ -1,0 +1,7 @@
+name: GMVault
+friendlyName: gmvault
+files:
+    - basePath: ~/.gmvault/
+      includedFiles:
+        - gmvault_defaults.conf
+      ignoredFiles: []

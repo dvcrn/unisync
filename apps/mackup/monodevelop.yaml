@@ -1,0 +1,15 @@
+name: MonoDevelop
+friendlyName: monodevelop
+files:
+    - basePath: ~/Library/MonoDevelop-Unity-5.0/KeyBindings/
+      includedFiles:
+        - Custom.mac-kb.xml
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/MonoDevelop-Unity-5.0/
+      includedFiles:
+        - MonoDevelopProperties.xml
+      ignoredFiles: []
+    - basePath: ~/Library/MonoDevelop-Unity-5.0/Policies/
+      includedFiles:
+        - Default.mdpolicy.xml
+      ignoredFiles: []

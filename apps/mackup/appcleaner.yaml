@@ -1,0 +1,8 @@
+name: AppCleaner
+friendlyName: appcleaner
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.freemacsoft.AppCleaner.plist
+        - net.freemacsoft.AppCleaner-SmartDelete.plist
+      ignoredFiles: []

@@ -1,0 +1,11 @@
+name: OpenEmu
+friendlyName: openemu
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - OpenEmu
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.openemu.OpenEmu.plist
+      ignoredFiles: []

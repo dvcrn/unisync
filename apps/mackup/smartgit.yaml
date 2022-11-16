@@ -1,0 +1,7 @@
+name: SmartGit
+friendlyName: smartgit
+files:
+    - basePath: ~/Library/Preferences/SmartGit/
+      includedFiles:
+        - smartgit.vmoptions
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: MPlayerX
+friendlyName: mplayerx
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.niltsh.MPlayerX.plist
+      ignoredFiles: []

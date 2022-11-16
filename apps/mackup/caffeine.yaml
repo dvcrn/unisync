@@ -1,0 +1,7 @@
+name: Caffeine
+friendlyName: caffeine
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.lightheadsw.Caffeine.plist
+      ignoredFiles: []

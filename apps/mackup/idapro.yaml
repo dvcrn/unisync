@@ -1,0 +1,7 @@
+name: IDA Pro
+friendlyName: idapro
+files:
+    - basePath: ~/
+      includedFiles:
+        - .idapro
+      ignoredFiles: []

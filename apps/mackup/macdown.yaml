@@ -1,0 +1,12 @@
+name: MacDown
+friendlyName: macdown
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.uranusjr.macdown.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/MacDown/
+      includedFiles:
+        - Styles
+        - Themes
+      ignoredFiles: []

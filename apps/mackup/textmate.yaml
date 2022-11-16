@@ -1,0 +1,21 @@
+name: TextMate
+friendlyName: textmate
+files:
+    - basePath: ~/Library/Application Support/TextMate/
+      includedFiles:
+        - Bundles
+        - PlugIns
+        - Pristine Copy
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/TextMate/Managed/
+      includedFiles:
+        - Bundles
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.macromates.textmate.latex_config.plist
+      ignoredFiles: []
+    - basePath: ~/
+      includedFiles:
+        - .tm_properties
+      ignoredFiles: []

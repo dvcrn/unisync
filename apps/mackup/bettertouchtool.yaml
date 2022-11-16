@@ -1,0 +1,16 @@
+name: BetterTouchTool
+friendlyName: bettertouchtool
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.hegenberg.BetterTouchTool.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/BetterTouchTool/
+      includedFiles:
+        - bettertouchtool.license
+        - btt_data_store.v2
+        - btt_data_store.v2-shm
+        - btt_data_store.v2-wal
+        - bttdata2
+        - bettersnaptool.bttlicense
+      ignoredFiles: []

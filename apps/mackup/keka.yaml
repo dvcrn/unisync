@@ -1,0 +1,7 @@
+name: Keka
+friendlyName: keka
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.aone.keka.plist
+      ignoredFiles: []

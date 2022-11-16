@@ -1,0 +1,9 @@
+name: GnuPG
+friendlyName: gnupg
+files:
+    - basePath: ~/.gnupg/
+      includedFiles:
+        - gpg-agent.conf
+        - gpg.conf
+        - trustdb.gpg
+      ignoredFiles: []

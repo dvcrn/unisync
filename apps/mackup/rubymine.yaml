@@ -1,0 +1,29 @@
+name: RubyMine
+friendlyName: rubymine
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - RubyMine40
+        - RubyMine50
+        - RubyMine60
+        - RubyMine70
+        - RubyMine80
+        - RubyMine2016.1
+        - RubyMine2016.2
+        - RubyMine2016.3
+        - RubyMine2017.3
+        - RubyMine2018.1
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - RubyMine40
+        - RubyMine50
+        - RubyMine60
+        - RubyMine70
+        - RubyMine80
+        - RubyMine2016.1
+        - RubyMine2016.2
+        - RubyMine2016.3
+        - RubyMine2017.3
+        - RubyMine2018.1
+      ignoredFiles: []

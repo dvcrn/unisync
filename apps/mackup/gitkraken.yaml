@@ -1,0 +1,11 @@
+name: GitKraken
+friendlyName: gitkraken
+files:
+    - basePath: ~/
+      includedFiles:
+        - .gitkraken
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.axosoft.gitkraken.plist
+      ignoredFiles: []

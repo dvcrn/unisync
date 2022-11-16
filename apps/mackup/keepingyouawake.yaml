@@ -1,0 +1,7 @@
+name: KeepingYouAwake
+friendlyName: keepingyouawake
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - info.marcel-dierkes.KeepingYouAwake.plist
+      ignoredFiles: []

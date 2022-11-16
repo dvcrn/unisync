@@ -1,0 +1,7 @@
+name: Kaggle
+friendlyName: kaggle
+files:
+    - basePath: ~/.kaggle/
+      includedFiles:
+        - kaggle.json
+      ignoredFiles: []

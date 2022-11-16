@@ -1,0 +1,7 @@
+name: Clasp
+friendlyName: clasp
+files:
+    - basePath: ~/
+      includedFiles:
+        - .clasprc.json
+      ignoredFiles: []

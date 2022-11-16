@@ -1,0 +1,7 @@
+name: TinyFugue
+friendlyName: tinyfugue
+files:
+    - basePath: ~/
+      includedFiles:
+        - .tfrc
+      ignoredFiles: []

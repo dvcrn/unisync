@@ -1,0 +1,8 @@
+name: Maven
+friendlyName: maven
+files:
+    - basePath: ~/.m2/
+      includedFiles:
+        - settings.xml
+        - toolchains.xml
+      ignoredFiles: []

@@ -1,0 +1,11 @@
+name: SABnzbd
+friendlyName: sabnzbd
+files:
+    - basePath: ~/Library/Application Support/SABnzbd/
+      includedFiles:
+        - sabnzbd.ini
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/SABnzbd/admin/
+      includedFiles:
+        - rss_data.sab
+      ignoredFiles: []

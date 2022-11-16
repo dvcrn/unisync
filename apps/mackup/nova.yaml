@@ -1,0 +1,7 @@
+name: Nova
+friendlyName: nova
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.panic.Nova.plist
+      ignoredFiles: []

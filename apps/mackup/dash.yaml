@@ -1,0 +1,16 @@
+name: Dash
+friendlyName: dash
+files:
+    - basePath: ~/Library/Application Support/Dash/
+      includedFiles:
+        - library.dash
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Dash/License/
+      includedFiles:
+        - license.dash-license
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.kapeli.dash.plist
+        - com.kapeli.dashdoc.plist
+      ignoredFiles: []

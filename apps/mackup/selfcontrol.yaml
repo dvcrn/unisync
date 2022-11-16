@@ -1,0 +1,7 @@
+name: SelfControl
+friendlyName: selfcontrol
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.eyebeam.SelfControl.plist
+      ignoredFiles: []

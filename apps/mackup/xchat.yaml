@@ -1,0 +1,7 @@
+name: XChat
+friendlyName: xchat
+files:
+    - basePath: ~/
+      includedFiles:
+        - .xchat2
+      ignoredFiles: []

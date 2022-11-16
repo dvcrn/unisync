@@ -1,0 +1,7 @@
+name: WP-CLI
+friendlyName: wp-cli
+files:
+    - basePath: ~/
+      includedFiles:
+        - .wp-cli
+      ignoredFiles: []

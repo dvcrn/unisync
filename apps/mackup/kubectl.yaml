@@ -1,0 +1,7 @@
+name: kubectl
+friendlyName: kubectl
+files:
+    - basePath: ~/.kube/
+      includedFiles:
+        - config
+      ignoredFiles: []

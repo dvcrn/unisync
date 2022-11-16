@@ -1,0 +1,25 @@
+name: MacOSX
+friendlyName: macosx
+files:
+    - basePath: ~/
+      includedFiles:
+        - .MacOSX
+      ignoredFiles: []
+    - basePath: ~/Library/KeyBindings/
+      includedFiles:
+        - DefaultKeyBinding.dict
+      ignoredFiles: []
+    - basePath: ~/Library/
+      includedFiles:
+        - PDF Services
+        - Scripts
+        - Workflows
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.apple.symbolichotkeys.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Speech/
+      includedFiles:
+        - Speakable Items
+      ignoredFiles: []

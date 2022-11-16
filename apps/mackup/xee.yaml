@@ -1,0 +1,7 @@
+name: Xee
+friendlyName: xee
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - cx.c3.Xee3.plist
+      ignoredFiles: []

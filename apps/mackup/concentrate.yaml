@@ -1,0 +1,7 @@
+name: Concentrate
+friendlyName: concentrate
+files:
+    - basePath: ~/Library/Application Support/Concentrate/
+      includedFiles:
+        - Concentrate.sqlite3
+      ignoredFiles: []

@@ -1,0 +1,11 @@
+name: Versions
+friendlyName: versions
+files:
+    - basePath: ~/Library/Application Support/Versions/
+      includedFiles:
+        - License
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.blackpixel.versions.plist
+      ignoredFiles: []

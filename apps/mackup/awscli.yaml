@@ -1,0 +1,7 @@
+name: AWS CLI
+friendlyName: awscli
+files:
+    - basePath: ~/
+      includedFiles:
+        - .aws
+      ignoredFiles: []

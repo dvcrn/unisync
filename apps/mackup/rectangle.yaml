@@ -1,0 +1,7 @@
+name: Rectangle
+friendlyName: rectangle
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.knollsoft.Rectangle.plist
+      ignoredFiles: []

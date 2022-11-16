@@ -1,0 +1,7 @@
+name: JS Beautifier
+friendlyName: jsbeautifier
+files:
+    - basePath: ~/
+      includedFiles:
+        - .jsbeautifyrc
+      ignoredFiles: []

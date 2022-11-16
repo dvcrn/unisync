@@ -1,0 +1,7 @@
+name: Surge
+friendlyName: surge
+files:
+    - basePath: ~/
+      includedFiles:
+        - .surge.conf
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Quicklook
+friendlyName: quicklook
+files:
+    - basePath: ~/Library/
+      includedFiles:
+        - Quicklook
+      ignoredFiles: []

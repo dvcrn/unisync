@@ -1,0 +1,7 @@
+name: zoxide
+friendlyName: zoxide
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - zoxide
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Arara
+friendlyName: arara
+files:
+    - basePath: ~/
+      includedFiles:
+        - .araraconfig.yaml
+        - araraconfig.yaml
+      ignoredFiles: []

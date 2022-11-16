@@ -1,0 +1,11 @@
+name: Ubersicht
+friendlyName: ubersicht
+files:
+    - basePath: ~/Library/Application Support/Übersicht/
+      includedFiles:
+        - widgets
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - tracesOf.Uebersicht.plist
+      ignoredFiles: []

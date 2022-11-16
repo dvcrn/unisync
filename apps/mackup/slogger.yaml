@@ -1,0 +1,7 @@
+name: Slogger
+friendlyName: slogger
+files:
+    - basePath: ~/
+      includedFiles:
+        - Slogger
+      ignoredFiles: []

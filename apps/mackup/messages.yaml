@@ -1,0 +1,10 @@
+name: Messages
+friendlyName: messages
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.apple.iChat.AIM.plist
+        - com.apple.iChat.Jabber.plist
+        - com.apple.iChat.StatusMessages.plist
+        - com.apple.iChat.Yahoo.plist
+      ignoredFiles: []

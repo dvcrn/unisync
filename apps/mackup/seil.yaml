@@ -1,0 +1,8 @@
+name: Seil
+friendlyName: seil
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.pqrs.PCKeyboardHack.plist
+        - org.pqrs.Seil.plist
+      ignoredFiles: []

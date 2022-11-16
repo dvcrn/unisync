@@ -1,0 +1,13 @@
+name: VLC
+friendlyName: vlc
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - org.videolan.vlc
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.videolan.vlc
+        - org.videolan.vlc.LSSharedFileList.plist
+        - org.videolan.vlc.plist
+      ignoredFiles: []

@@ -1,0 +1,54 @@
+name: WebStorm
+friendlyName: webstorm
+files:
+    - basePath: ~/Library/Application Support/JetBrains/
+      includedFiles:
+        - WebStorm2020.1
+        - WebStorm2020.2
+        - WebStorm2020.3
+        - WebStorm2020.4
+        - WebStorm2021.1
+        - WebStorm2021.2
+        - WebStorm2021.3
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - WebStorm
+        - WebStorm10
+        - WebStorm11
+        - WebStorm2016.1
+        - WebStorm2016.2
+        - WebStorm2016.3
+        - WebStorm2017.1
+        - WebStorm2017.2
+        - WebStorm2017.3
+        - WebStorm2018.1
+        - WebStorm2018.2
+        - WebStorm2018.3
+        - WebStorm2019.1
+        - WebStorm2019.2
+        - WebStorm2019.3
+        - WebStorm2019.4
+        - WebStorm8
+        - WebStorm9
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - WebStorm10
+        - WebStorm11
+        - WebStorm2016.1
+        - WebStorm2016.2
+        - WebStorm2016.3
+        - WebStorm2017.1
+        - WebStorm2017.2
+        - WebStorm2017.3
+        - WebStorm2018.1
+        - WebStorm2018.2
+        - WebStorm2018.3
+        - WebStorm2019.1
+        - WebStorm2019.2
+        - WebStorm2019.3
+        - WebStorm2019.4
+        - WebStorm8
+        - WebStorm9
+      ignoredFiles: []

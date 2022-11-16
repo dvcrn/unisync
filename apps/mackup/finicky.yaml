@@ -1,0 +1,7 @@
+name: finicky
+friendlyName: finicky
+files:
+    - basePath: ~/
+      includedFiles:
+        - .finicky.js
+      ignoredFiles: []

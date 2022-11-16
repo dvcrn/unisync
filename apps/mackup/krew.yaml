@@ -1,0 +1,7 @@
+name: Krew
+friendlyName: krew
+files:
+    - basePath: ~/
+      includedFiles:
+        - .krew
+      ignoredFiles: []

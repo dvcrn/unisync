@@ -1,0 +1,11 @@
+name: XLD
+friendlyName: xld
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - XLD
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - jp.tmkk.XLD.plist
+      ignoredFiles: []

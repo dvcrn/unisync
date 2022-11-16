@@ -1,0 +1,7 @@
+name: PyRadio
+friendlyName: pyradio
+files:
+    - basePath: ~/.pyradio/
+      includedFiles:
+        - stations.csv
+      ignoredFiles: []

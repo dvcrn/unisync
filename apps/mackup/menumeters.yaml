@@ -1,0 +1,7 @@
+name: MenuMeters
+friendlyName: menumeters
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.ragingmenace.MenuMeters.plist
+      ignoredFiles: []

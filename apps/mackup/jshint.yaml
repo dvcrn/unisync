@@ -1,0 +1,7 @@
+name: JSHint
+friendlyName: jshint
+files:
+    - basePath: ~/
+      includedFiles:
+        - .jshintrc
+      ignoredFiles: []

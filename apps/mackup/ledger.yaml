@@ -1,0 +1,7 @@
+name: ledger
+friendlyName: ledger
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ledgerrc
+      ignoredFiles: []

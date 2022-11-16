@@ -1,0 +1,7 @@
+name: Spark
+friendlyName: spark
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Spark
+      ignoredFiles: []

@@ -1,0 +1,11 @@
+name: Docker
+friendlyName: docker
+files:
+    - basePath: ~/
+      includedFiles:
+        - .dockercfg
+      ignoredFiles: []
+    - basePath: ~/.docker/
+      includedFiles:
+        - config.json
+      ignoredFiles: []

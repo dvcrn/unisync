@@ -1,0 +1,8 @@
+name: Emacs
+friendlyName: emacs
+files:
+    - basePath: ~/
+      includedFiles:
+        - .emacs
+        - .emacs.d
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Phoenix
+friendlyName: phoenix
+files:
+    - basePath: ~/
+      includedFiles:
+        - .phoenix.js
+      ignoredFiles: []

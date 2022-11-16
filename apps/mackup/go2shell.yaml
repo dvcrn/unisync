@@ -1,0 +1,7 @@
+name: Go2Shell
+friendlyName: go2shell
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.zipzapmac.Go2Shell.plist
+      ignoredFiles: []

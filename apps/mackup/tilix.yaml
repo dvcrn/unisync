@@ -1,0 +1,7 @@
+name: tilix
+friendlyName: tilix
+files:
+    - basePath: ~/
+      includedFiles:
+        - tilix.dconf
+      ignoredFiles: []

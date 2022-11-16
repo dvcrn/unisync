@@ -1,0 +1,7 @@
+name: Maid
+friendlyName: maid
+files:
+    - basePath: ~/
+      includedFiles:
+        - .maid
+      ignoredFiles: []

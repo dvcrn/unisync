@@ -1,0 +1,7 @@
+name: Pear
+friendlyName: pear
+files:
+    - basePath: ~/
+      includedFiles:
+        - .pearrc
+      ignoredFiles: []

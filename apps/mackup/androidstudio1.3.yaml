@@ -1,0 +1,11 @@
+name: Android Studio 1.3
+friendlyName: androidstudio1.3
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - AndroidStudio1.3
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - AndroidStudio1.3
+      ignoredFiles: []

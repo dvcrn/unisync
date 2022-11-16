@@ -1,0 +1,12 @@
+name: OmniFocus
+friendlyName: omnifocus
+files:
+    - basePath: ~/Library/Application Support/OmniFocus/
+      includedFiles:
+        - Plug-Ins
+        - Themes
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.omnigroup.OmniFocus.plist
+      ignoredFiles: []

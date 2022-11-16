@@ -1,0 +1,7 @@
+name: 2Do
+friendlyName: 2do
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.guidedways.TodoMac.plist
+      ignoredFiles: []

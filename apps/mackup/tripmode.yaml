@@ -1,0 +1,7 @@
+name: TripMode
+friendlyName: tripmode
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - TripMode
+      ignoredFiles: []

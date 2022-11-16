@@ -1,0 +1,11 @@
+name: Jumpcut
+friendlyName: jumpcut
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Jumpcut
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - net.sf.Jumpcut.plist
+      ignoredFiles: []

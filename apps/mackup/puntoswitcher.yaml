@@ -1,0 +1,7 @@
+name: Punto Switcher
+friendlyName: puntoswitcher
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - ru.yandex.punto.plist
+      ignoredFiles: []

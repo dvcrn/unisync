@@ -1,0 +1,11 @@
+name: Remote Desktop Manager
+friendlyName: remotedesktopmanager
+files:
+    - basePath: ~/Library/Application Support/com.devolutions.remotedesktopmanager.free/
+      includedFiles:
+        - Connections.db
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/com.devolutions.remotedesktopmanager/
+      includedFiles:
+        - Connections.db
+      ignoredFiles: []

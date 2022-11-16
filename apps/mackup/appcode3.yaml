@@ -1,0 +1,11 @@
+name: AppCode 3
+friendlyName: appcode3
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - appCode30
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - appCode30
+      ignoredFiles: []

@@ -1,0 +1,8 @@
+name: Ansible
+friendlyName: ansible
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ansible
+        - .ansible.cfg
+      ignoredFiles: []

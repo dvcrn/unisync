@@ -1,0 +1,7 @@
+name: liftoff
+friendlyName: liftoff
+files:
+    - basePath: ~/
+      includedFiles:
+        - .liftoffrc
+      ignoredFiles: []

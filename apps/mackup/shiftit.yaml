@@ -1,0 +1,7 @@
+name: ShiftIt
+friendlyName: shiftit
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.shiftitapp.ShiftIt.plist
+      ignoredFiles: []

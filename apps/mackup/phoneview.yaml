@@ -1,0 +1,7 @@
+name: PhoneView
+friendlyName: phoneview
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.ecamm.PhoneView.plist
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Witch
+friendlyName: witch
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.manytricks.Witch.plist
+      ignoredFiles: []
