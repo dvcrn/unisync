@@ -19,7 +19,7 @@ var globalIgnore = []string{
 	"Name .DS_Store",
 }
 
-func toAbsolutePath(path string) (string, error) {
+func ToAbsolutePath(path string) (string, error) {
 	homeDir, err := os.UserHomeDir()
 	if err != nil {
 		return "", err
@@ -60,12 +60,12 @@ func (s *Syncer) sync(appConfig *AppConfig, syncMode syncMode) error {
 	for _, fileConfig := range appConfig.Files {
 		targetPath := filepath.Join(s.TargetPath, appConfig.FriendlyName)
 
-		absPathA, err := toAbsolutePath(targetPath)
+		absPathA, err := ToAbsolutePath(targetPath)
 		if err != nil {
 			return err
 		}
 
-		absPathB, err := toAbsolutePath(fileConfig.BasePath)
+		absPathB, err := ToAbsolutePath(fileConfig.BasePath)
 		if err != nil {
 			return err
 		}

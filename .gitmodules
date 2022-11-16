@@ -1,0 +1,3 @@
+[submodule "mackup"]
+	path = mackup
+	url = https://github.com/lra/mackup
