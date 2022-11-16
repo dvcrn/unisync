@@ -6,9 +6,11 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"sort"
 	"strings"
 
 	"github.com/dvcrn/unisync/internal"
+	"golang.org/x/exp/maps"
 	"gopkg.in/yaml.v3"
 )
 
@@ -123,9 +125,12 @@ func main() {
 			log.Fatal(err)
 		}
 
+		keys := maps.Keys(configurations)
+		sort.Strings(keys)
+
 		fmt.Println("Available apps:")
-		for k := range configurations {
-			fmt.Printf(" - %s\n", k)
+		for _, k := range keys {
+			fmt.Printf(" - %s\n", configurations[k].FriendlyName)
 		}
 
 	case actionTypeSync,
