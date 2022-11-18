@@ -1,0 +1,7 @@
+name: Jetbrains Toolbox
+friendlyName: jetbrains-toolbox
+files:
+  - basePath: ~/Library/Application Support/JetBrains/Toolbox
+    includedFiles:
+      - .settings.json
+      - .storage.json
