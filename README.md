@@ -65,7 +65,7 @@ Commands:
   init-from-target - run/force initial sync, targetPath -> appPath
   init-from-local - run/force initial sync, local -> targetPath
   list - list all available apps
-  show <appname> - show details of an app
+  info <appname> - show details of an app
 ```
 
 The initial sync options **force** one way. For example if you want your local configuration to be overwritten on initial sync with whatever you have in your storage folder, run `init-from-target`

@@ -25,7 +25,7 @@ const (
 	actionTypeInitFromTarget actionType = "initFromTarget"
 	actionTypeInitFromLocal  actionType = "initFromLocal"
 	actionTypeList           actionType = "list"
-	actionTypeShow           actionType = "show"
+	actionTypeInfo           actionType = "info"
 )
 
 var action actionType = actionTypeUnknown
@@ -42,7 +42,7 @@ func init() {
 		fmt.Println("  init-from-target - run/force initial sync, targetPath -> appPath")
 		fmt.Println("  init-from-local - run/force initial sync, local -> targetPath")
 		fmt.Println("  list - list available apps")
-		fmt.Println("  show <appname> - show details of an app")
+		fmt.Println("  info <appname> - show details of an app")
 	}
 
 	if len(flag.Args()) < 1 {
@@ -60,8 +60,8 @@ func init() {
 		action = actionTypeInitFromLocal
 	case "list":
 		action = actionTypeList
-	case "show":
-		action = actionTypeShow
+	case "info":
+		action = actionTypeInfo
 
 	}
 }
@@ -137,7 +137,7 @@ func main() {
 			fmt.Printf(" - %s (%s)\n", configurations[k].Name, configurations[k].FriendlyName)
 		}
 
-	case actionTypeShow:
+	case actionTypeInfo:
 		configurations, err := loadApps()
 		if err != nil {
 			log.Fatal(err)
