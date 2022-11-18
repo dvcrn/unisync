@@ -1,13 +1,20 @@
 package main
 
 import (
+	"bytes"
 	"embed"
+	"errors"
 	"flag"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"os"
+	"os/exec"
+	"path"
 	"sort"
 	"strings"
+
+	"text/template"
 
 	"github.com/dvcrn/unisync/internal"
 	"golang.org/x/exp/maps"
@@ -16,6 +23,9 @@ import (
 
 //go:embed apps/*
 var content embed.FS
+
+//go:embed agent.plist
+var agentPlist string
 
 type actionType string
 
@@ -26,11 +36,14 @@ const (
 	actionTypeInitFromLocal  actionType = "initFromLocal"
 	actionTypeList           actionType = "list"
 	actionTypeInfo           actionType = "info"
+	actionTypeInstallAgent   actionType = "installAgent"
+	actionTypeRemoveAgent    actionType = "removeAgent"
 )
 
 var action actionType = actionTypeUnknown
 
 func init() {
+
 	flag.Parse()
 	flag.Usage = func() {
 		fmt.Fprintf(flag.CommandLine.Output(), "Usage of %s:\n", os.Args[0])
@@ -43,6 +56,10 @@ func init() {
 		fmt.Println("  init-from-local - run/force initial sync, local -> targetPath")
 		fmt.Println("  list - list available apps")
 		fmt.Println("  info <appname> - show details of an app")
+		fmt.Println("")
+		fmt.Println("LaunchAgent management")
+		fmt.Println("  install-agent - installs LaunchAgent to automatically run in the background")
+		fmt.Println("  remove-agent - unload and remove agent")
 	}
 
 	if len(flag.Args()) < 1 {
@@ -62,7 +79,10 @@ func init() {
 		action = actionTypeList
 	case "info":
 		action = actionTypeInfo
-
+	case "install-agent":
+		action = actionTypeInstallAgent
+	case "remove-agent":
+		action = actionTypeRemoveAgent
 	}
 }
 
@@ -123,6 +143,88 @@ func loadApps() (map[string]*internal.AppConfig, error) {
 
 func main() {
 	switch action {
+	case actionTypeRemoveAgent:
+		fmt.Println("removing LaunchAgent...")
+
+		homeDir, err := os.UserHomeDir()
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		launchAgentsPath := path.Join(homeDir, "Library", "LaunchAgents")
+		targetPath := path.Join(launchAgentsPath, "sh.d.unisync.plist")
+
+		if _, err := os.Stat(targetPath); errors.Is(err, os.ErrNotExist) {
+			fmt.Println("no LaunchAgent found at ", targetPath)
+			return
+		}
+
+		// unload and delete
+		cmd := exec.Command("launchctl", "unload", targetPath)
+		output, err := cmd.CombinedOutput()
+		if err != nil {
+			fmt.Println("error unloading LaunchAgent:")
+			fmt.Println(string(output))
+			return
+		}
+
+		if err := os.Remove(targetPath); err != nil {
+			fmt.Println(err.Error())
+			return
+		}
+
+	case actionTypeInstallAgent:
+		fmt.Println("installing LaunchAgent...")
+
+		// store path to executable to insert into the LaunchAgent
+		unisyncExecutable, err := os.Executable()
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		homeDir, err := os.UserHomeDir()
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		launchAgentsPath := path.Join(homeDir, "Library", "LaunchAgents")
+
+		tpl, err := template.New("agentplist").Parse(agentPlist)
+		if err != nil {
+			fmt.Println(err.Error())
+			return
+		}
+
+		// 'freeze' current users path into the launchagent config so it can resolve
+		// things like where the unison binary is
+		osPath := os.Getenv("PATH")
+		out := bytes.Buffer{}
+		err = tpl.Execute(&out, map[string]string{
+			"PATH":       osPath,
+			"EXECUTABLE": unisyncExecutable,
+		})
+
+		if err != nil {
+			fmt.Println(err.Error())
+			return
+		}
+
+		// write LaunchAgent and load it
+		targetPath := path.Join(launchAgentsPath, "sh.d.unisync.plist")
+		if err := ioutil.WriteFile(targetPath, out.Bytes(), 0644); err != nil {
+			fmt.Println(err.Error())
+			return
+		}
+
+		fmt.Println("Successfully installed LaunchAgent to: ", targetPath)
+		cmd := exec.Command("launchctl", "load", targetPath)
+		output, err := cmd.CombinedOutput()
+		if err != nil {
+			fmt.Println("error loading LaunchAgent:")
+			fmt.Println(string(output))
+			return
+		}
+
 	case actionTypeList:
 		configurations, err := loadApps()
 		if err != nil {

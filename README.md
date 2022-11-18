@@ -7,8 +7,9 @@ Mackup inspired tool to sync application settings, powered by unison
   * [What it is](#what-it-is)
   * [How is this different from mackup?](#how-is-this-different-from-mackup)
     * [Why?](#why)
-  * [Install & Usage](#install--usage)
-    * [Usage](#usage)
+  * [Install](#install)
+  * [Usage](#usage)
+  * [Have unisync run automatically in the background](#have-unisync-run-automatically-in-the-background)
   * [How to add support for new apps?](#how-to-add-support-for-new-apps)
   * [How to re-generate config files from mackup?](#how-to-re-generate-config-files-from-mackup)
   * [Troubleshooting & Caveats](#troubleshooting--caveats)
@@ -31,7 +32,7 @@ I like unison and ran into issues where symlinks randomly broke without me notic
 
 The sync folder in the cloud acts as a backup and source for diffing, but the apps would continue to work as is if those were deleted.
 
-## Install & Usage
+## Install
 
 Install `unison` and make sure it's in your path. On mac you can do:
 
@@ -57,18 +58,33 @@ apps:
 
 - `preferDirection` specifies which direction should get picked on conflict. Set it to `target` to have the targetPath take precedence (aka, your dropbox folder). Set it to `local` to say that your local apps should take prededence and override the sync store. Defaults to `target`
 
-### Usage
+## Usage
 
 ```
 Commands:
   sync - run sync between all enabled apps
   init-from-target - run/force initial sync, targetPath -> appPath
   init-from-local - run/force initial sync, local -> targetPath
-  list - list all available apps
+  list - list available apps
   info <appname> - show details of an app
+
+LaunchAgent management
+  install-agent - installs LaunchAgent to automatically run in the background
+  remove-agent - unload and remove agent
+
 ```
 
 The initial sync options **force** one way. For example if you want your local configuration to be overwritten on initial sync with whatever you have in your storage folder, run `init-from-target`
+
+## Have unisync run automatically in the background
+
+`unisync` comes with a LaunchAgent you can install, that will run `unisync` every 10 minutes:
+
+```
+unisync install-agent
+```
+
+This will add and load a new LaunchAgent config into `Library/LaunchAgents/sh.d.unisync.plist` 
 
 ## How to add support for new apps?
 
