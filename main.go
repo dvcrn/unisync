@@ -130,7 +130,7 @@ func main() {
 
 		fmt.Println("Available apps:")
 		for _, k := range keys {
-			fmt.Printf(" - %s\n", configurations[k].FriendlyName)
+			fmt.Printf(" - %s (%s)\n", configurations[k].Name, configurations[k].FriendlyName)
 		}
 
 	case actionTypeSync,
