@@ -25,6 +25,7 @@ const (
 	actionTypeInitFromTarget actionType = "initFromTarget"
 	actionTypeInitFromLocal  actionType = "initFromLocal"
 	actionTypeList           actionType = "list"
+	actionTypeShow           actionType = "show"
 )
 
 var action actionType = actionTypeUnknown
@@ -41,6 +42,7 @@ func init() {
 		fmt.Println("  init-from-target - run/force initial sync, targetPath -> appPath")
 		fmt.Println("  init-from-local - run/force initial sync, local -> targetPath")
 		fmt.Println("  list - list available apps")
+		fmt.Println("  show <appname> - show details of an app")
 	}
 
 	if len(flag.Args()) < 1 {
@@ -58,6 +60,8 @@ func init() {
 		action = actionTypeInitFromLocal
 	case "list":
 		action = actionTypeList
+	case "show":
+		action = actionTypeShow
 
 	}
 }
@@ -131,6 +135,31 @@ func main() {
 		fmt.Println("Available apps:")
 		for _, k := range keys {
 			fmt.Printf(" - %s (%s)\n", configurations[k].Name, configurations[k].FriendlyName)
+		}
+
+	case actionTypeShow:
+		configurations, err := loadApps()
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		if len(flag.Args()) != 2 {
+			fmt.Println("no argument given")
+			return
+		}
+
+		for k, v := range configurations {
+			if k == flag.Args()[1] {
+				fmt.Printf("%s (%s)\n", v.Name, v.FriendlyName)
+				fmt.Println("----")
+				out, err := yaml.Marshal(v)
+				if err != nil {
+					fmt.Println(err.Error())
+					return
+				}
+
+				fmt.Println(string(out))
+			}
 		}
 
 	case actionTypeSync,
