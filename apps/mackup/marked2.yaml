@@ -1,11 +1,11 @@
 name: Marked 2
 friendlyName: marked2
 files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.brettterpstra.marked2.plist
-      ignoredFiles: []
     - basePath: ~/Library/Application Support/
       includedFiles:
         - Marked 2
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.brettterpstra.marked2.plist
       ignoredFiles: []

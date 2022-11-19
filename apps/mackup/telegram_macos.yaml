@@ -1,0 +1,7 @@
+name: Telegram for macOS
+friendlyName: telegram_macos
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - ru.keepcoder.Telegram.plist
+      ignoredFiles: []

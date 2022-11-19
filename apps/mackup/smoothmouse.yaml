@@ -1,7 +1,0 @@
-name: Smooth Mouse
-friendlyName: smoothmouse
-files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.cyberic.SmoothMouse.plist
-      ignoredFiles: []

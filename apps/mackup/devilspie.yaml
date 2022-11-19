@@ -1,0 +1,7 @@
+name: Devil's Pie
+friendlyName: devilspie
+files:
+    - basePath: ~/
+      includedFiles:
+        - .devilspie
+      ignoredFiles: []

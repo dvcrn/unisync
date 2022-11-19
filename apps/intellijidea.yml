@@ -1,0 +1,8 @@
+name: IntelliJ IDEA
+friendlyName: intellijidea
+files:
+    - basePath: ~/Library/Application Support/JetBrains/
+      includedFiles:
+        - IntelliJIdea*
+      ignoredFiles:
+        - Regex ^(?!(IntelliJIdea))

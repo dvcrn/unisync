@@ -1,12 +1,12 @@
 name: ForkLift
 friendlyName: forklift
 files:
-    - basePath: ~/Library/Application Support/ForkLift/Favorites/
-      includedFiles:
-        - Favorites.json
-      ignoredFiles: []
     - basePath: ~/Library/Preferences/
       includedFiles:
         - com.binarynights.ForkLift2.plist
         - com.binarynights.ForkLift-3.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/ForkLift/Favorites/
+      includedFiles:
+        - Favorites.json
       ignoredFiles: []

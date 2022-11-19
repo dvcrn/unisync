@@ -1,7 +1,0 @@
-name: Doom Emacs
-friendlyName: doomemacs
-files:
-    - basePath: ~/
-      includedFiles:
-        - .doom.d
-      ignoredFiles: []

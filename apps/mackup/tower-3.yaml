@@ -1,0 +1,11 @@
+name: Tower 3
+friendlyName: tower-3
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - com.fournova.Tower3
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.fournova.Tower3.plist
+      ignoredFiles: []

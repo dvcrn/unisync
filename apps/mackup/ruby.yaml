@@ -1,14 +1,14 @@
 name: Ruby
 friendlyName: ruby
 files:
+    - basePath: ~/.gem/
+      includedFiles:
+        - credentials
+      ignoredFiles: []
     - basePath: ~/
       includedFiles:
         - .gemrc
         - .irbrc
         - .pryrc
         - .aprc
-      ignoredFiles: []
-    - basePath: ~/.gem/
-      includedFiles:
-        - credentials
       ignoredFiles: []

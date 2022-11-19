@@ -11,10 +11,10 @@ func sanitizeName(name string) string {
 	return strings.ReplaceAll(strings.ToLower(name), " ", "")
 }
 
-func GenerateConfig(appName string, files []string) (*internal.AppConfig, error) {
+func GenerateConfig(filename string, appName string, files []string) (*internal.AppConfig, error) {
 	appConfig := internal.AppConfig{
 		Name:         appName,
-		FriendlyName: sanitizeName(appName),
+		FriendlyName: sanitizeName(filename),
 	}
 
 	fileRoots := map[string][]string{}

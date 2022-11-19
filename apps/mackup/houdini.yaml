@@ -1,11 +1,11 @@
 name: Houdini
 friendlyName: houdini
 files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.uglyapps.Houdini.plist
-      ignoredFiles: []
     - basePath: ~/Library/Application Support/
       includedFiles:
         - Houdini
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.uglyapps.Houdini.plist
       ignoredFiles: []

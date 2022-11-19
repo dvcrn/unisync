@@ -1,0 +1,13 @@
+name: Adobe Lightroom
+friendlyName: lightroom
+files:
+    - basePath: ~/Library/Application Support/Adobe/
+      includedFiles:
+        - Lightroom
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.adobe.Lightroom4.plist
+        - com.adobe.Lightroom5.plist
+        - com.adobe.Lightroom6.plist
+      ignoredFiles: []

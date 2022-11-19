@@ -21,6 +21,8 @@ func gen(configPath string) error {
 		return err
 	}
 
+	fileName := strings.TrimSuffix(path.Base(configPath), ".cfg")
+
 	cfg, err := ini.LoadSources(ini.LoadOptions{
 		UnparseableSections: []string{"configuration_files"},
 	}, content)
@@ -39,7 +41,7 @@ func gen(configPath string) error {
 	}
 	configurationFiles := cfg.Section("configuration_files").Body()
 
-	generatedConfig, err := generate.GenerateConfig(appName.String(), strings.Split(configurationFiles, "\n"))
+	generatedConfig, err := generate.GenerateConfig(fileName, appName.String(), strings.Split(configurationFiles, "\n"))
 	if err != nil {
 		return err
 	}

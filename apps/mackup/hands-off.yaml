@@ -1,0 +1,7 @@
+name: Hands Off!
+friendlyName: hands-off
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.metakine.handsoff.plist
+      ignoredFiles: []

@@ -1,0 +1,11 @@
+name: AppCode 3.2
+friendlyName: appcode-32
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - AppCode32
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - AppCode32
+      ignoredFiles: []

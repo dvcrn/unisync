@@ -1,11 +1,11 @@
 name: Cartographica
 friendlyName: cartographica
 files:
-    - basePath: ~/Library/Application Support/
-      includedFiles:
-        - Cartographica
-      ignoredFiles: []
     - basePath: ~/Library/Preferences/
       includedFiles:
         - com.ClueTrust.Cartographica.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Cartographica
       ignoredFiles: []

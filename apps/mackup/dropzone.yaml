@@ -1,0 +1,11 @@
+name: Dropzone 3
+friendlyName: dropzone
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Dropzone 3
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.aptonic.Dropzone3.plist
+      ignoredFiles: []

@@ -1,9 +1,0 @@
-name: Default Folder X
-friendlyName: defaultfolderx
-files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.stclairsoft.DefaultFolderX.favorites.plist
-        - com.stclairsoft.DefaultFolderX.plist
-        - com.stclairsoft.DefaultFolderX.settings.plist
-      ignoredFiles: []

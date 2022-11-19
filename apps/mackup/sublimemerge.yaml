@@ -1,7 +1,0 @@
-name: Sublime Merge
-friendlyName: sublimemerge
-files:
-    - basePath: ~/Library/Application Support/Sublime Merge/Packages/
-      includedFiles:
-        - User
-      ignoredFiles: []

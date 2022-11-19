@@ -1,0 +1,8 @@
+name: Oracle Cloud Infrastructure CLI
+friendlyName: oci
+files:
+    - basePath: ~/.oci/
+      includedFiles:
+        - config
+        - oci_cli_rc
+      ignoredFiles: []

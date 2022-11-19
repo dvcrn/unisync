@@ -1,0 +1,7 @@
+name: Zabbix CLI
+friendlyName: zabbix-cli
+files:
+    - basePath: ~/.zabbix-cli/
+      includedFiles:
+        - zabbix-cli.conf
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Affinity Photo
+friendlyName: affinity-photo
+files:
+    - basePath: ~/Library/Containers/Affinity Photo/Data/Library/Application Support/
+      includedFiles:
+        - user
+      ignoredFiles: []

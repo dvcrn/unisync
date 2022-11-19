@@ -1,7 +1,27 @@
 name: IntelliJ IDEA
 friendlyName: intellijidea
 files:
-    - basePath: ~/.IntelliJIdea13/
+    - basePath: ~/IntelliJIdea2018.2/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/IntelliJIdea2018.3/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/IntelliJIdea2019.1/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/IdeaIC2019.1/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/IdeaIC2019.2/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/IdeaIC2019.3/
       includedFiles:
         - config
       ignoredFiles: []
@@ -17,32 +37,11 @@ files:
       includedFiles:
         - config
       ignoredFiles: []
-    - basePath: ~/IntelliJIdea2018.2/
+    - basePath: ~/IntelliJIdea2016.1/
       includedFiles:
         - config
       ignoredFiles: []
-    - basePath: ~/IntelliJIdea2018.3/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/IntelliJIdea2019.1/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/Library/Application Support/JetBrains/
-      includedFiles:
-        - IntelliJIdea2020.1
-        - IntelliJIdea2020.2
-        - IntelliJIdea2020.3
-        - IntelliJIdea2021.1
-        - IntelliJIdea2022.1
-        - IntelliJIdea2022.2
-      ignoredFiles: []
-    - basePath: ~/IdeaIC2018.3/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/IdeaIC2019.3/
+    - basePath: ~/IntelliJIdea2016.2/
       includedFiles:
         - config
       ignoredFiles: []
@@ -50,7 +49,19 @@ files:
       includedFiles:
         - config
       ignoredFiles: []
-    - basePath: ~/IntelliJIdea2017.2/
+    - basePath: ~/IntelliJIdea2019.3/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.IntelliJIdea13/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/IdeaIC2018.2/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/IntelliJIdea2017.3/
       includedFiles:
         - config
       ignoredFiles: []
@@ -82,18 +93,6 @@ files:
         - IntelliJIdea2019.2
         - IntelliJIdea2019.3
       ignoredFiles: []
-    - basePath: ~/IdeaIC2019.2/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/IntelliJIdea2016.1/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/IntelliJIdea2017.3/
-      includedFiles:
-        - config
-      ignoredFiles: []
     - basePath: ~/Library/Application Support/
       includedFiles:
         - IdeaIC2016.1
@@ -120,6 +119,15 @@ files:
         - IntelliJIdea2019.2
         - IntelliJIdea2019.3
       ignoredFiles: []
+    - basePath: ~/Library/Application Support/JetBrains/
+      includedFiles:
+        - IntelliJIdea2020.1
+        - IntelliJIdea2020.2
+        - IntelliJIdea2020.3
+        - IntelliJIdea2021.1
+        - IntelliJIdea2022.1
+        - IntelliJIdea2022.2
+      ignoredFiles: []
     - basePath: ~/.IntelliJIdea12/
       includedFiles:
         - config
@@ -128,23 +136,15 @@ files:
       includedFiles:
         - config
       ignoredFiles: []
-    - basePath: ~/IdeaIC2018.2/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/IdeaIC2019.1/
-      includedFiles:
-        - config
-      ignoredFiles: []
     - basePath: ~/.IntelliJIdea15/
       includedFiles:
         - config
       ignoredFiles: []
-    - basePath: ~/IntelliJIdea2016.2/
+    - basePath: ~/IdeaIC2018.3/
       includedFiles:
         - config
       ignoredFiles: []
-    - basePath: ~/IntelliJIdea2019.3/
+    - basePath: ~/IntelliJIdea2017.2/
       includedFiles:
         - config
       ignoredFiles: []

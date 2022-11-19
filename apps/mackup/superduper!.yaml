@@ -1,7 +1,0 @@
-name: SuperDuper!
-friendlyName: superduper!
-files:
-    - basePath: ~/Library/Application Support/
-      includedFiles:
-        - SuperDuper!
-      ignoredFiles: []

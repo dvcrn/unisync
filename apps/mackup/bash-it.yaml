@@ -1,0 +1,7 @@
+name: Bash it
+friendlyName: bash-it
+files:
+    - basePath: ~/.bash_it/
+      includedFiles:
+        - enabled
+      ignoredFiles: []

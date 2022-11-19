@@ -1,0 +1,7 @@
+name: Environmental Station Alpha
+friendlyName: environmental-station-alpha
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - MMFApplications
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Gmail Notifr
+friendlyName: gmail-notifr
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.ashchan.GmailNotifr.plist
+      ignoredFiles: []

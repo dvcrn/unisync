@@ -1,7 +1,0 @@
-name: Adobe Camera Raw
-friendlyName: adobecameraraw
-files:
-    - basePath: ~/Library/Application Support/Adobe/
-      includedFiles:
-        - CameraRaw
-      ignoredFiles: []

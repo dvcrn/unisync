@@ -1,0 +1,10 @@
+name: iStat Menus
+friendlyName: istat-menus
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.bjango.istatmenus.plist
+        - com.bjango.istatmenus.status.plist
+        - com.bjango.istatmenus5.extras.plist
+        - com.bjango.istatmenus6.extras.plist
+      ignoredFiles: []

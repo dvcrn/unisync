@@ -1,0 +1,7 @@
+name: Ruby Version
+friendlyName: ruby-version
+files:
+    - basePath: ~/
+      includedFiles:
+        - .ruby-version
+      ignoredFiles: []

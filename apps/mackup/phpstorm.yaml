@@ -5,13 +5,71 @@ files:
       includedFiles:
         - config
       ignoredFiles: []
+    - basePath: ~/.PhpStorm2016.3/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PhpStorm2018.3/
+      includedFiles:
+        - config
+      ignoredFiles: []
     - basePath: ~/.PhpStorm2019.1/
       includedFiles:
         - config
       ignoredFiles: []
-    - basePath: ~/.PhpStorm2018.2/
+    - basePath: ~/.PhpStorm2019.3/
       includedFiles:
         - config
+      ignoredFiles: []
+    - basePath: ~/.PhpStorm2016.2/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PhpStorm2017.3/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PhpStorm2018.1/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PhpStorm2019.2/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/JetBrains/
+      includedFiles:
+        - PhpStorm2020.1
+        - PhpStorm2020.2
+        - PhpStorm2020.3
+        - PhpStorm2021.1
+        - PhpStorm2021.2
+        - PhpStorm2021.3
+        - PhpStorm2022.1
+        - PhpStorm2022.2
+        - PhpStorm2022.3
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - PhpStorm2016.1
+        - PhpStorm2016.2
+        - PhpStorm2016.3
+        - PhpStorm2017.1
+        - PhpStorm2017.2
+        - PhpStorm2017.3
+        - PhpStorm2018.1
+        - PhpStorm2018.2
+        - PhpStorm2018.3
+        - PhpStorm2019.1
+        - PhpStorm2019.2
+        - PhpStorm2019.3
+        - PhpStorm2019.4
+        - WebIde100
+        - WebIde60
+        - WebIde70
+        - WebIde80
+        - WebIde90
+        - WebIde95
       ignoredFiles: []
     - basePath: ~/Library/Preferences/
       includedFiles:
@@ -36,73 +94,15 @@ files:
         - WebIde90
         - WebIde95
       ignoredFiles: []
-    - basePath: ~/.PhpStorm2016.2/
-      includedFiles:
-        - config
-      ignoredFiles: []
     - basePath: ~/.PhpStorm2017.2/
       includedFiles:
         - config
       ignoredFiles: []
-    - basePath: ~/.PhpStorm2017.3/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/Library/Application Support/
-      includedFiles:
-        - PhpStorm2016.1
-        - PhpStorm2016.2
-        - PhpStorm2016.3
-        - PhpStorm2017.1
-        - PhpStorm2017.2
-        - PhpStorm2017.3
-        - PhpStorm2018.1
-        - PhpStorm2018.2
-        - PhpStorm2018.3
-        - PhpStorm2019.1
-        - PhpStorm2019.2
-        - PhpStorm2019.3
-        - PhpStorm2019.4
-        - WebIde100
-        - WebIde60
-        - WebIde70
-        - WebIde80
-        - WebIde90
-        - WebIde95
-      ignoredFiles: []
-    - basePath: ~/.PhpStorm2018.3/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/.PhpStorm2019.2/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/.PhpStorm2019.3/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/Library/Application Support/JetBrains/
-      includedFiles:
-        - PhpStorm2020.1
-        - PhpStorm2020.2
-        - PhpStorm2020.3
-        - PhpStorm2021.1
-        - PhpStorm2021.2
-        - PhpStorm2021.3
-        - PhpStorm2022.1
-        - PhpStorm2022.2
-        - PhpStorm2022.3
-      ignoredFiles: []
-    - basePath: ~/.PhpStorm2016.3/
+    - basePath: ~/.PhpStorm2018.2/
       includedFiles:
         - config
       ignoredFiles: []
     - basePath: ~/.PhpStorm2017.1/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/.PhpStorm2018.1/
       includedFiles:
         - config
       ignoredFiles: []

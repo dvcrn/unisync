@@ -1,7 +1,0 @@
-name: Artistic Style
-friendlyName: artisticstyle
-files:
-    - basePath: ~/
-      includedFiles:
-        - .astylerc
-      ignoredFiles: []

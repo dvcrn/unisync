@@ -1,11 +1,11 @@
 name: Dolphin
 friendlyName: dolphin
 files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - org.dolphin-emu.dolphin.plist
-      ignoredFiles: []
     - basePath: ~/Library/Application Support/
       includedFiles:
         - Dolphin
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - org.dolphin-emu.dolphin.plist
       ignoredFiles: []

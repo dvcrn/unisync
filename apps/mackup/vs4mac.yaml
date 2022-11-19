@@ -1,0 +1,17 @@
+name: Visual Studio for Mac
+friendlyName: vs4mac
+files:
+    - basePath: ~/Library/
+      includedFiles:
+        - VisualStudio
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/VisualStudio/7.0/
+      includedFiles:
+        - EditingLayout.xml
+        - MonoDevelopProperties.xml
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/VisualStudio/8.0/
+      includedFiles:
+        - EditingLayout.xml
+        - MonoDevelopProperties.xml
+      ignoredFiles: []

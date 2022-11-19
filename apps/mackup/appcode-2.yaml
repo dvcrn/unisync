@@ -1,0 +1,11 @@
+name: AppCode 2
+friendlyName: appcode-2
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - appCode20
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - appCode20
+      ignoredFiles: []

@@ -1,0 +1,7 @@
+name: Affinity Publisher
+friendlyName: affinity-publisher
+files:
+    - basePath: ~/Library/Containers/Affinity Publisher/Data/Library/Application Support/
+      includedFiles:
+        - user
+      ignoredFiles: []

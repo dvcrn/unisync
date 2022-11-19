@@ -1,0 +1,12 @@
+name: Apple Music
+friendlyName: apple-music
+files:
+    - basePath: ~/Library/Music/
+      includedFiles:
+        - Scripts
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.apple.Music.eq.plist
+        - com.apple.Music.plist
+      ignoredFiles: []

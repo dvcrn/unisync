@@ -1,0 +1,13 @@
+name: WhatsApp Web
+friendlyName: whatsapp
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - WhatsApp-Helper.plist
+        - WhatsApp.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/WhatsApp/
+      includedFiles:
+        - Preferences
+        - settings.json
+      ignoredFiles: []

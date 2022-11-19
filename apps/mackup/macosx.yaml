@@ -1,6 +1,14 @@
 name: MacOSX
 friendlyName: macosx
 files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.apple.symbolichotkeys.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Speech/
+      includedFiles:
+        - Speakable Items
+      ignoredFiles: []
     - basePath: ~/
       includedFiles:
         - .MacOSX
@@ -14,12 +22,4 @@ files:
         - PDF Services
         - Scripts
         - Workflows
-      ignoredFiles: []
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.apple.symbolichotkeys.plist
-      ignoredFiles: []
-    - basePath: ~/Library/Speech/
-      includedFiles:
-        - Speakable Items
       ignoredFiles: []

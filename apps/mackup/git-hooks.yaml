@@ -1,0 +1,7 @@
+name: Git Hooks
+friendlyName: git-hooks
+files:
+    - basePath: ~/
+      includedFiles:
+        - .git_hooks
+      ignoredFiles: []

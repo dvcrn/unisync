@@ -1,0 +1,9 @@
+name: Hero Lab
+friendlyName: hero-lab
+files:
+    - basePath: ~/Library/Application Support/Hero Lab/
+      includedFiles:
+        - customoutput
+        - data
+        - docs
+      ignoredFiles: []

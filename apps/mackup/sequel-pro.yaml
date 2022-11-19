@@ -1,0 +1,13 @@
+name: Sequel Pro
+friendlyName: sequel-pro
+files:
+    - basePath: ~/Library/Application Support/Sequel Pro/
+      includedFiles:
+        - Data
+        - Bundles
+        - Themes
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.sequelpro.SequelPro.plist
+      ignoredFiles: []

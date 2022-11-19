@@ -1,0 +1,7 @@
+name: Hyper.app
+friendlyName: hyper
+files:
+    - basePath: ~/
+      includedFiles:
+        - .hyper.js
+      ignoredFiles: []

@@ -1,0 +1,32 @@
+name: Adobe Photoshop
+friendlyName: photoshop
+files:
+    - basePath: ~/Library/Application Support/Adobe/Adobe Photoshop CC 2013/
+      includedFiles:
+        - Presets
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Adobe/Adobe Photoshop CC 2014/
+      includedFiles:
+        - Presets
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Adobe/Adobe Photoshop CC 2015/
+      includedFiles:
+        - Presets
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Adobe/Adobe Photoshop CC 2015.5/
+      includedFiles:
+        - Presets
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/Adobe/Adobe Photoshop CC 2019/
+      includedFiles:
+        - Presets
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - Adobe Photoshop CC 2013 Settings
+        - Adobe Photoshop CC 2014 Settings
+        - Adobe Photoshop CC 2015 Settings
+        - Adobe Photoshop CC 2015.5 Settings
+        - Adobe Photoshop CC 2019 Settings
+        - com.adobe.Photoshop.plist
+      ignoredFiles: []

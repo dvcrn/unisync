@@ -1,7 +1,0 @@
-name: Ruby Version Manager
-friendlyName: rubyversionmanager
-files:
-    - basePath: ~/
-      includedFiles:
-        - .rvmrc
-      ignoredFiles: []

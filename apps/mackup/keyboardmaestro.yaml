@@ -1,7 +1,0 @@
-name: Keyboard Maestro
-friendlyName: keyboardmaestro
-files:
-    - basePath: ~/Library/Application Support/
-      includedFiles:
-        - Keyboard Maestro
-      ignoredFiles: []

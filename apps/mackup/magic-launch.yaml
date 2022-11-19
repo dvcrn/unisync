@@ -1,0 +1,7 @@
+name: Magic Launch
+friendlyName: magic-launch
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.metakine.magic-launch.agent.plist
+      ignoredFiles: []

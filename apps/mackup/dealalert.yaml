@@ -1,7 +1,0 @@
-name: Deal Alert
-friendlyName: dealalert
-files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.LittleFin.DealAlert.plist
-      ignoredFiles: []

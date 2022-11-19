@@ -1,6 +1,15 @@
 name: Vim
 friendlyName: vim
 files:
+    - basePath: ~/
+      includedFiles:
+        - .gvimrc
+        - .gvimrc.after
+        - .gvimrc.before
+        - .vimrc
+        - .vimrc.after
+        - .vimrc.before
+      ignoredFiles: []
     - basePath: ~/.vim/
       includedFiles:
         - autoload
@@ -18,13 +27,4 @@ files:
     - basePath: ~/.vim/plugin/
       includedFiles:
         - settings
-      ignoredFiles: []
-    - basePath: ~/
-      includedFiles:
-        - .gvimrc
-        - .gvimrc.after
-        - .gvimrc.before
-        - .vimrc
-        - .vimrc.after
-        - .vimrc.before
       ignoredFiles: []

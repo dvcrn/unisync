@@ -1,7 +1,0 @@
-name: NoSQLBooster for MongoDB
-friendlyName: nosqlboosterformongodb
-files:
-    - basePath: ~/Documents/
-      includedFiles:
-        - NoSQLBooster
-      ignoredFiles: []

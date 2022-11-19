@@ -1,0 +1,7 @@
+name: Azure CLI
+friendlyName: azure
+files:
+    - basePath: ~/
+      includedFiles:
+        - .azure
+      ignoredFiles: []

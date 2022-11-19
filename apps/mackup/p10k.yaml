@@ -1,0 +1,7 @@
+name: Powerlevel10k
+friendlyName: p10k
+files:
+    - basePath: ~/
+      includedFiles:
+        - .p10k.zsh
+      ignoredFiles: []

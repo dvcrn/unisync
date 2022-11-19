@@ -1,11 +1,11 @@
 name: Fantastical
 friendlyName: fantastical
 files:
-    - basePath: ~/Library/Containers/com.flexibits.fantastical2.mac/
-      includedFiles:
-        - Container.plist
-      ignoredFiles: []
     - basePath: ~/Library/Preferences/
       includedFiles:
         - com.flexibits.fantastical.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Containers/com.flexibits.fantastical2.mac/
+      includedFiles:
+        - Container.plist
       ignoredFiles: []

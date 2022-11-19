@@ -1,0 +1,7 @@
+name: Todo.txt CLI
+friendlyName: todotxt-cli
+files:
+    - basePath: ~/.todo/
+      includedFiles:
+        - config
+      ignoredFiles: []

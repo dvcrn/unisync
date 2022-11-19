@@ -1,7 +1,0 @@
-name: Xamarin Studio 5
-friendlyName: xamarinstudio5
-files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - XamarinStudio-5.0
-      ignoredFiles: []

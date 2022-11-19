@@ -1,7 +1,0 @@
-name: Adobe Lightroom Classic
-friendlyName: adobelightroomclassic
-files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.adobe.LightroomClassicCC7.plist
-      ignoredFiles: []

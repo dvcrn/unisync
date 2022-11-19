@@ -1,0 +1,11 @@
+name: GrandTotal 3
+friendlyName: grandtotal-3
+files:
+    - basePath: ~/Library/Application Support/GrandTotal/
+      includedFiles:
+        - AddressBook.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.mediaatelier.GrandTotal3.plist
+      ignoredFiles: []

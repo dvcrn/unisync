@@ -1,8 +1,0 @@
-name: PostgreSQL
-friendlyName: postgresql
-files:
-    - basePath: ~/
-      includedFiles:
-        - .pgpass
-        - .psqlrc
-      ignoredFiles: []

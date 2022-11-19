@@ -1,0 +1,7 @@
+name: Gnome SSH Tunnel Manager
+friendlyName: gstm
+files:
+    - basePath: ~/
+      includedFiles:
+        - .gSTM
+      ignoredFiles: []

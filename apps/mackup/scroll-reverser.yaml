@@ -1,0 +1,7 @@
+name: Scroll Reverser
+friendlyName: scroll-reverser
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.pilotmoon.scroll-reverser.plist
+      ignoredFiles: []

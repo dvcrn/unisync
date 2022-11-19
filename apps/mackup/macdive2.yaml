@@ -1,0 +1,11 @@
+name: MacDive
+friendlyName: macdive2
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - MacDive
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.mintsoftware.MacDive2.plist
+      ignoredFiles: []

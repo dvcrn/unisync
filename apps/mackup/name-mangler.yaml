@@ -1,0 +1,11 @@
+name: Name Mangler
+friendlyName: name-mangler
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Name Mangler
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.manytricks.NameMangler.plist
+      ignoredFiles: []

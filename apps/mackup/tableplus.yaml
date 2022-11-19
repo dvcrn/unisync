@@ -1,6 +1,11 @@
 name: TablePlus
 friendlyName: tableplus
 files:
+    - basePath: ~/Library/Application Support/com.tinyapp.TablePlus/
+      includedFiles:
+        - Data
+        - Plugins
+      ignoredFiles: []
     - basePath: ~/Library/Preferences/
       includedFiles:
         - com.tinyapp.TablePlus.plist
@@ -8,9 +13,4 @@ files:
     - basePath: ~/Library/Application Support/com.tinyapp.TablePlus/Cache/
       includedFiles:
         - History
-      ignoredFiles: []
-    - basePath: ~/Library/Application Support/com.tinyapp.TablePlus/
-      includedFiles:
-        - Data
-        - Plugins
       ignoredFiles: []

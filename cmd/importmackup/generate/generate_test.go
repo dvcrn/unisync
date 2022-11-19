@@ -8,7 +8,7 @@ import (
 func TestGenerateConfig_SingleFile(t *testing.T) {
 	configFiles := []string{"Library/Preferences/com.trankynam.XtraFinder.plist"}
 
-	appConfig, err := GenerateConfig("XtraFinder", configFiles)
+	appConfig, err := GenerateConfig("xtrafinder", "XtraFinder", configFiles)
 
 	assert.NoError(t, err)
 	assert.Equal(t, "XtraFinder", appConfig.Name)
@@ -31,7 +31,7 @@ func TestGenerateConfig_FriendlyName(t *testing.T) {
 
 	for _, testCase := range testCases {
 		t.Run(testCase.name, func(t *testing.T) {
-			appConfig, err := GenerateConfig(testCase.name, []string{})
+			appConfig, err := GenerateConfig(testCase.name, "", []string{})
 			assert.NoError(t, err)
 			assert.Equal(t, testCase.expected, appConfig.FriendlyName)
 		})
@@ -41,7 +41,7 @@ func TestGenerateConfig_FriendlyName(t *testing.T) {
 func TestGenerateConfig_MultipleFilesSameRoot(t *testing.T) {
 	configFiles := []string{"Library/Application Support/xbar/xbar.config.json", "Library/Application Support/xbar/plugins"}
 
-	appConfig, err := GenerateConfig("XtraFinder", configFiles)
+	appConfig, err := GenerateConfig("xtrafinder", "XtraFinder", configFiles)
 
 	assert.NoError(t, err)
 	assert.Equal(t, "XtraFinder", appConfig.Name)
@@ -56,7 +56,7 @@ func TestGenerateConfig_MultipleFilesSameRoot(t *testing.T) {
 func TestGenerateConfig_MultipleFilesMultiRoot(t *testing.T) {
 	configFiles := []string{"Library/Application Support/xbar/xbar.config.json", "Library/Application Support/xbar/plugins", "Library/Preferences/com.trankynam.XtraFinder.plist"}
 
-	appConfig, err := GenerateConfig("XtraFinder", configFiles)
+	appConfig, err := GenerateConfig("xtrafinder", "XtraFinder", configFiles)
 
 	assert.NoError(t, err)
 	assert.Equal(t, "XtraFinder", appConfig.Name)

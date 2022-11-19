@@ -1,7 +1,0 @@
-name: Logitech Options
-friendlyName: logitechoptions
-files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.logitech.manager.setting.ffff.plist
-      ignoredFiles: []

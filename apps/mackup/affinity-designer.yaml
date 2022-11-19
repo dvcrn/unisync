@@ -1,0 +1,7 @@
+name: Affinity Designer
+friendlyName: affinity-designer
+files:
+    - basePath: ~/Library/Containers/Affinity Designer/Data/Library/Application Support/
+      includedFiles:
+        - user
+      ignoredFiles: []

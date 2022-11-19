@@ -1,0 +1,13 @@
+name: Light Table
+friendlyName: light-table
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.kodowa.LightTable.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/LightTable/
+      includedFiles:
+        - plugins
+        - settings
+        - User
+      ignoredFiles: []

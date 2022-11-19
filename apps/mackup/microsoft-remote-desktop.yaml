@@ -1,0 +1,7 @@
+name: Microsoft Remote Desktop
+friendlyName: microsoft-remote-desktop
+files:
+    - basePath: ~/Library/Containers/com.microsoft.rdc.macos/Data/Library/Preferences/
+      includedFiles:
+        - com.microsoft.rdc.macos.plist
+      ignoredFiles: []

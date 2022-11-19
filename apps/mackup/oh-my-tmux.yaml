@@ -1,0 +1,7 @@
+name: Oh My Tmux
+friendlyName: oh-my-tmux
+files:
+    - basePath: ~/
+      includedFiles:
+        - .tmux.conf.local
+      ignoredFiles: []
