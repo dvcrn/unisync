@@ -1,0 +1,7 @@
+name: Activity Watch
+friendlyName: activitywatch
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - activitywatch
+      ignoredFiles: []

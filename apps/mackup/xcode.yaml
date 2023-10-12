@@ -1,10 +1,6 @@
 name: Xcode
 friendlyName: xcode
 files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.apple.dt.Xcode.plist
-      ignoredFiles: []
     - basePath: ~/Library/Application Support/Developer/Shared/Xcode/
       includedFiles:
         - Plug-ins
@@ -21,4 +17,8 @@ files:
     - basePath: ~/Library/Developer/Xcode/
       includedFiles:
         - Templates
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.apple.dt.Xcode.plist
       ignoredFiles: []

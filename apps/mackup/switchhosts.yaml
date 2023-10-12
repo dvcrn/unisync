@@ -1,0 +1,7 @@
+name: SwitchHosts
+friendlyName: switchhosts
+files:
+    - basePath: ~/.SwitchHosts/data/collection/
+      includedFiles:
+        - hosts
+      ignoredFiles: []

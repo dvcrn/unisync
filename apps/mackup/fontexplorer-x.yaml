@@ -1,11 +1,11 @@
 name: FontExplorer X
 friendlyName: fontexplorer-x
 files:
-    - basePath: ~/
+    - basePath: ~/Library/Application Support/Linotype/
       includedFiles:
         - FontExplorer X
       ignoredFiles: []
-    - basePath: ~/Library/Application Support/Linotype/
+    - basePath: ~/
       includedFiles:
         - FontExplorer X
       ignoredFiles: []

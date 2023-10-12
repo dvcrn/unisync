@@ -1,11 +1,11 @@
 name: DaisyDisk
 friendlyName: daisydisk
 files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.daisydiskapp.DaisyDiskStandAlone.plist
-      ignoredFiles: []
     - basePath: ~/Library/Application Support/DaisyDisk/
       includedFiles:
         - License.DaisyDisk
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.daisydiskapp.DaisyDiskStandAlone.plist
       ignoredFiles: []

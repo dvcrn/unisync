@@ -1,0 +1,7 @@
+name: Dozer
+friendlyName: dozer
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.mortennn.Dozer.plist
+      ignoredFiles: []

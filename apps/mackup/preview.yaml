@@ -1,0 +1,7 @@
+name: Preview
+friendlyName: preview
+files:
+    - basePath: ~/Library/Group Containers/com.apple.PreviewLegacySignaturesConversion/Library/
+      includedFiles:
+        - Preferences
+      ignoredFiles: []

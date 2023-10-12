@@ -1,0 +1,7 @@
+name: Scrolla
+friendlyName: scrolla
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - mo.com.sleeplessmind.Scrolla.plist
+      ignoredFiles: []

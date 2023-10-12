@@ -1,0 +1,11 @@
+name: Zoom
+friendlyName: zoom
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - us.zoom.Transcode.plist
+        - us.zoom.xos.Hotkey.plist
+        - us.zoom.xos.plist
+        - us.zoom.ZoomAutoUpdater.plist
+        - ZoomChat.plist
+      ignoredFiles: []

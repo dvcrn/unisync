@@ -4,4 +4,5 @@ files:
     - basePath: ~/Library/Preferences/
       includedFiles:
         - com.lightheadsw.Caffeine.plist
+        - com.intelliscapesolutions.caffeine.plist
       ignoredFiles: []

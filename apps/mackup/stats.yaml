@@ -1,0 +1,7 @@
+name: Stats
+friendlyName: stats
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - eu.exelban.Stats.plist
+      ignoredFiles: []

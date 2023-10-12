@@ -3,6 +3,7 @@ friendlyName: maven
 files:
     - basePath: ~/.m2/
       includedFiles:
+        - settings-security.xml
         - settings.xml
         - toolchains.xml
       ignoredFiles: []

@@ -1,13 +1,13 @@
 name: Karabiner
 friendlyName: karabiner
 files:
-    - basePath: ~/Library/Application Support/
-      includedFiles:
-        - Karabiner
-      ignoredFiles: []
     - basePath: ~/Library/Preferences/
       includedFiles:
         - org.pqrs.Karabiner.plist
         - org.pqrs.Karabiner-AXNotifier.plist
         - org.pqrs.Karabiner.multitouchextension.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - Karabiner
       ignoredFiles: []

@@ -1,14 +1,14 @@
 name: LaunchBar
 friendlyName: launchbar
 files:
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - at.obdev.LaunchBar.plist
-      ignoredFiles: []
     - basePath: ~/Library/Application Support/LaunchBar/
       includedFiles:
         - Actions
         - Snippets
         - Configuration.plist
         - CustomShortcuts.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - at.obdev.LaunchBar.plist
       ignoredFiles: []

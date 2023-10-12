@@ -1,18 +1,6 @@
 name: PyCharm
 friendlyName: pycharm
 files:
-    - basePath: ~/.PyCharm2016.2/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/.PyCharm40/
-      includedFiles:
-        - config
-      ignoredFiles: []
-    - basePath: ~/.PyCharm50/
-      includedFiles:
-        - config
-      ignoredFiles: []
     - basePath: ~/.PyCharmCE2019.3/
       includedFiles:
         - config
@@ -45,6 +33,18 @@ files:
         - PyCharm50
       ignoredFiles: []
     - basePath: ~/.PyCharm2016.1/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PyCharm2016.2/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PyCharm40/
+      includedFiles:
+        - config
+      ignoredFiles: []
+    - basePath: ~/.PyCharm50/
       includedFiles:
         - config
       ignoredFiles: []

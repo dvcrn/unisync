@@ -1,0 +1,7 @@
+name: Warp
+friendlyName: warp
+files:
+    - basePath: ~/
+      includedFiles:
+        - .warp
+      ignoredFiles: []

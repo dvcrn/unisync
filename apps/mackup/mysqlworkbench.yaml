@@ -1,13 +1,13 @@
 name: MySQL Workbench
 friendlyName: mysqlworkbench
 files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - com.oracle.mysql.workbench.plist
+      ignoredFiles: []
     - basePath: ~/Library/Application Support/MySQL/Workbench/
       includedFiles:
         - connections.xml
         - server_instances.xml
         - wb_options.xml
-      ignoredFiles: []
-    - basePath: ~/Library/Preferences/
-      includedFiles:
-        - com.oracle.mysql.workbench.plist
       ignoredFiles: []

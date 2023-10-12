@@ -1,13 +1,13 @@
 name: Proxyman
 friendlyName: proxyman
 files:
-    - basePath: ~/Library/Application Support/
-      includedFiles:
-        - com.proxyman.NSProxy
-        - com.proxyman.NSProxy-setapp
-      ignoredFiles: []
     - basePath: ~/Library/Preferences/
       includedFiles:
         - com.proxyman.NSProxy.plist
         - com.proxyman.NSProxy-setapp.plist
+      ignoredFiles: []
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - com.proxyman.NSProxy
+        - com.proxyman.NSProxy-setapp
       ignoredFiles: []

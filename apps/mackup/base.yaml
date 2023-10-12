@@ -1,0 +1,11 @@
+name: Base
+friendlyName: base
+files:
+    - basePath: ~/Library/Containers/uk.co.menial.Base/Data/Library/Application Support/Base/
+      includedFiles:
+        - Base
+      ignoredFiles: []
+    - basePath: ~/Library/Containers/uk.co.menial.Base/Data/Library/Preferences/
+      includedFiles:
+        - uk.co.menial.Base.plist
+      ignoredFiles: []

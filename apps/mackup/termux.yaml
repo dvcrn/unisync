@@ -1,0 +1,9 @@
+name: Configuration for Termux
+friendlyName: termux
+files:
+    - basePath: ~/.termux/
+      includedFiles:
+        - colors.properties
+        - termux.properties
+        - font.ttf
+      ignoredFiles: []

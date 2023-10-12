@@ -1,6 +1,16 @@
 name: MacOSX
 friendlyName: macosx
 files:
+    - basePath: ~/Library/KeyBindings/
+      includedFiles:
+        - DefaultKeyBinding.dict
+      ignoredFiles: []
+    - basePath: ~/Library/
+      includedFiles:
+        - PDF Services
+        - Scripts
+        - Workflows
+      ignoredFiles: []
     - basePath: ~/Library/Preferences/
       includedFiles:
         - com.apple.symbolichotkeys.plist
@@ -12,14 +22,4 @@ files:
     - basePath: ~/
       includedFiles:
         - .MacOSX
-      ignoredFiles: []
-    - basePath: ~/Library/KeyBindings/
-      includedFiles:
-        - DefaultKeyBinding.dict
-      ignoredFiles: []
-    - basePath: ~/Library/
-      includedFiles:
-        - PDF Services
-        - Scripts
-        - Workflows
       ignoredFiles: []

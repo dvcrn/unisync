@@ -1,0 +1,7 @@
+name: Elgato StreamDeck
+friendlyName: streamdeck
+files:
+    - basePath: ~/Library/Application Support/
+      includedFiles:
+        - com.elgato.StreamDeck
+      ignoredFiles: []

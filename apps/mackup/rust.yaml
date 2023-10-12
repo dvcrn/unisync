@@ -1,0 +1,7 @@
+name: Rust
+friendlyName: rust
+files:
+    - basePath: ~/.cargo/
+      includedFiles:
+        - config
+      ignoredFiles: []

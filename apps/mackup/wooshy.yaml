@@ -1,0 +1,7 @@
+name: Wooshy
+friendlyName: wooshy
+files:
+    - basePath: ~/Library/Preferences/
+      includedFiles:
+        - mo.com.sleeplessmind.Wooshy.plist
+      ignoredFiles: []
