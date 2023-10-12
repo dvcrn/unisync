@@ -1,0 +1,6 @@
+name: MacUpdater
+friendlyName: macupdater
+files:
+  - basePath: ~/Library/Preferences/
+    includedFiles:
+      - com.corecode.MacUpdater.plist
